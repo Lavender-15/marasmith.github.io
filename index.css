@@ -1,6 +1,6 @@
 
-h1 { background-color: teal; padding: 0.7em; border-radius: 10px;}
-.indexfooter {background-color: teal  ; padding: 0.7em; border-radius: 10px; color: white;}
+h1 { background-color: rgb(101, 163, 163); padding: 0.7em; border-radius: 10px;}
+.indexfooter {background-color: rgb(101, 163, 163)  ; padding: 0.7em; border-radius: 10px; color: white;}
 body {text-align: center;}
 body {font-family: sans-serif;}
 nav {line-height: 1.5rem; text-align: left; margin-left: 250px; }
@@ -10,7 +10,7 @@ html {margin: 1rem auto;
 max-width: 850px;}
 .imageofme { margin-left: 550px; 
 margin-top: -150px; }
-.link { color: white;}
+.link { color: #ffffff;}
 main {
 font-family: 'Potta One', cursive;
 font-family: 'Source Sans Pro', sans-serif;
@@ -19,14 +19,14 @@ border-radius: 10px;
 overflow: hidden;
 max-width: 938px; }
 a {
-color: #0a3836;
+color: teal;
 }
 a:hover {
 color: #992af4;
 }
 
 #updated {
-color: #01201f;
+color: #094947;
 }
 li {
 margin: 10px;
