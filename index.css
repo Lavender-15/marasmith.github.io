@@ -1,6 +1,6 @@
 
 h1 { background-color: rgb(101, 163, 163); padding: 0.7em; border-radius: 10px;}
-.indexfooter {background-color: rgb(0, 0, 0)  ; padding: 0.7em; border-radius: 10px; color: white;}
+.indexfooter {background-color: rgb(101, 163, 163); padding: 0.7em; border-radius: 10px; color: white;}
 body {text-align: center;}
 body {font-family: sans-serif;}
 nav {line-height: 1.5rem; text-align: left; margin-left: 250px; }
@@ -18,7 +18,7 @@ border-radius: 10px;
 overflow: hidden;
 max-width: 938px; }
 a {
-color: teal;
+color: rgb(7, 109, 109);
 }
 a:hover {
 color: #992af4;
