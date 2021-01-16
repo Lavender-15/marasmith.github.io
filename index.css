@@ -1,6 +1,6 @@
 
-h1 { background-color: rgb(150, 216, 216); padding: 0.7em; border-radius: 10px;}
-.indexfooter {background-color: rgb(150, 216, 216); padding: 0.7em; border-radius: 10px; }
+h1 { background-color: rgb(179, 236, 236); padding: 0.7em; border-radius: 10px;}
+.indexfooter {background-color: rgb(179, 236, 236); padding: 0.7em; border-radius: 10px; }
 body {text-align: center;}
 body {font-family: sans-serif;}
 nav {line-height: 1.5rem; text-align: left; margin-left: 250px; }
@@ -18,14 +18,14 @@ border-radius: 10px;
 overflow: hidden;
 max-width: 938px; }
 a {
-color: rgb(5, 63, 63);
+color: rgb(4, 51, 51);
 }
 a:hover {
 color: #992af4;
 }
 
 #updated {
-color: #094947;
+color: #041817;
 }
 li {
 margin: 10px;
