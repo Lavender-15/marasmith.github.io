@@ -1,8 +1,25 @@
-@media only screen and (min-width: 560px){
+/*@media only screen and (min-width: 560px){
 
 }
 div.places {
     clear: both;
     column-count: 2;
     column-rule: 1px solid #ddd;;
-}
+    main {   column-count: 2;}
+}*/
+
+
+@media only screen and (min-width: 560px){
+
+    .places {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .content {
+        max-width: 760px; 
+        margin: 0 auto;
+    }
+    
+    
+    
+    } /* end of media querry*/
