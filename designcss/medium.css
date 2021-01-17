@@ -1,0 +1,8 @@
+@media only screen and (min-width: 560px){
+
+}
+div.places {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;;
+}
