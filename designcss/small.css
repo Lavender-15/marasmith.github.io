@@ -55,7 +55,7 @@
         }
         p { 
             display: block;
-
+          
         
             text-align: left;
             padding: 1em;
@@ -70,19 +70,19 @@
         footer { 
          text-align: center;
          padding: 1rem 2%; 
-         background-color: #073533;
+         background-color: #278883;
         
         }
         
         a {
-            color: rgb(32, 107, 107);
+            color: rgb(10, 46, 46);
             }
             a:hover {
             color: white;
             }
             
             #updated {
-            color: #06504c;
+            color: #092b29;
             }
     
             .columnimg { padding: 1rem 2%;
