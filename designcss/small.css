@@ -55,10 +55,7 @@
         }
         p { 
             display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
+
         
             text-align: left;
             padding: 1em;
@@ -73,7 +70,7 @@
         footer { 
          text-align: center;
          padding: 1rem 2%; 
-         background-color: #278883;
+         background-color: #073533;
         
         }
         
