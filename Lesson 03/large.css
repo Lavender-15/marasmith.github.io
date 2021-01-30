@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1028px){
+
+    header, footer, nav, main {max-width: 75rem; margin: auto;}
+    
+    .places {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    div.places {column-count: 3;}
+    
+    
+    } /* end of media querry*/
