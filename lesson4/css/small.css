@@ -1,0 +1,110 @@
+* {-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing: 
+    border-box;}
+    
+    body { font-family: Verdana; font-size: 16px;
+    color: #0D153B; }
+
+    h1 {font-size: 1.3rem; font-family: 'Lato', sans-serif;}
+
+    h2 {font-size:1.2rem; font-family: 'Lato', sans-serif;}
+    
+    h3 {font-size:1.0rem; font-family: 'Lato', sans-serif;}
+
+
+    
+    main {background-color: #6D6BAE;}
+    
+    main, footer {
+        padding: 1rem;
+    }
+    
+    /* Header styles */
+    header {
+        padding: 1rem;
+        background-color: #454972;
+    }
+    
+    
+    header h1, header h2 {
+        margin: 0;
+    }
+    
+    header img {
+        float: left;
+        width: 50px;
+        margin-right: 1rem;
+        border-radius: 9px;
+    }
+    
+    /* navigation */
+    
+    nav {background-color: #0D153B;}
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav button {
+        display: block;
+        margin: 0 auto;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #FFFFFF;
+    }
+    
+    nav ul li a {
+        display: block;
+        color: #CCD2EC;
+        padding: .5rem 0;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-family: Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    nav ul li a:hover {
+        background-color:  #dddf64;
+        color: #0D153B
+    }
+    
+    nav ul li.active-page a {
+        background-color:#dddf64;
+        color: #fff; /* removes a hover color error on text */
+    }
+    
+    nav ul.hide {
+        display: none;
+    }
+    
+    /* main styles */
+    
+    img {max-width: 100%;}
+    
+    
+    .placeholder {
+        /* temporary placeholder styles */
+        padding: 2rem;
+        margin: 2rem 1rem;
+        background-color: #0D153B;
+    }
+    
+    /* footer styles */
+    
+    footer {background-color: #454972; color: #CCD2EC;}
+    footer a {color:#CCD2EC;}
+    footer p {text-align: center;}
+
+
+
+
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    
+    }
