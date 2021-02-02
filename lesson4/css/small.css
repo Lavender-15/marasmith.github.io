@@ -3,7 +3,7 @@
     border-box;}
     
     body { font-family: Verdana; font-size: 16px;
-    color: #0D153B; }
+    color: #CCD2EC; }
 
     h1 {font-size: 1.3rem; font-family: 'Lato', sans-serif;}
 
@@ -23,6 +23,7 @@
     header {
         padding: 1rem;
         background-color: #454972;
+        text-align: center;
     }
     
     
@@ -67,7 +68,7 @@
     }
     
     nav ul li a:hover {
-        background-color:  #dddf64;
+        background-color:  #eef093;
         color: #0D153B
     }
     
