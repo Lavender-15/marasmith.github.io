@@ -19,11 +19,11 @@
         padding: 1rem;
     }
     
-    /* Header styles */
+    /* Header */
     header {
-        padding: 1rem;
+        
         background-color: #454972;
-        text-align: center;
+        text-align: left;
     }
     
     
@@ -33,12 +33,12 @@
     
     header img {
         float: left;
-        width: 50px;
+        width: 100px;
         margin-right: 1rem;
         border-radius: 9px;
     }
     
-    /* navigation */
+    /* nav */
     
     nav {background-color: #0D153B;}
     
