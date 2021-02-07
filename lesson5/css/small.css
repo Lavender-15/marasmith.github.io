@@ -184,7 +184,7 @@ section .forcast{ display: none;}
 
  .forcast img{ margin-top: 20px;}
 
-    img {max-width: 100%;}
+   
 
     .hotspring {width: 50%;}
 
@@ -196,7 +196,7 @@ section .forcast{ display: none;}
     }
 
 
-
+    img {max-width: 100%;}
     /* footer styles */
 
     footer {background-color: #454972; color: #CCD2EC;}
