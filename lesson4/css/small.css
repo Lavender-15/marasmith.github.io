@@ -99,7 +99,7 @@
     footer a {color:#CCD2EC;}
     footer p {text-align: center;}
 
-    .hero-content {
+    .weathersum {
         position: absolute;
         color: #00171f;
         top: 20px;
@@ -125,7 +125,7 @@
         margin-top: 1.5rem;
     }
     
-    section.article img {
+    .article img {
         border: 1px solid#000;
         margin: 0;
         width: 100%;
@@ -145,12 +145,13 @@
     }
     
     .map {
-        grid-column: 1/2;
-        width: 70%;
+        grid-column: 2/2;
+        width: 100%;
         height: auto;
         border: 3px solid #000;
         margin: 1%;
-        margin-left: 15%;
+
+        float: left; 
     }
     
     p {
@@ -160,7 +161,7 @@
     }
     
 
-    .hero-content p {
+    .weathersum p {
         font-size: 16px;
     }
     
@@ -173,7 +174,13 @@
         padding: 2px;
         -webkit-box-shadow: 5px 5px 11px 1px #000000;
         box-shadow: 5px 5px 11px 1px #000000;
+        align-items:center;
     }
+
+    footer {  margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;}
     
 
     .clearfix:after {

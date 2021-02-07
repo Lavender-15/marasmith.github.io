@@ -31,13 +31,13 @@
         .hero div {
             max-width: 100vw;
         }
-        .hero-content {
+        .weathersum {
             top: 60px;
             left: 60px;
             padding: 0 1%;
             font-size: 22px;
         }
-        .hero-content p {
+        .weathersum p {
             font-size: 19px;
         }
         main {
