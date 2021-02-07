@@ -157,6 +157,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
+        padding-right: 400px;
     }
     
     .contact p {
@@ -165,7 +166,7 @@
     
     .map img {
         grid-column: 1/2;
-        width: 100px;
+        width: 250px;
         height: auto;
         border: 3px solid #000;
         margin: 1%;
@@ -200,8 +201,8 @@
         background-color: #0D153B;
     }
 
-    .contactinfo {display: inline;
-    columns: 100px 2;
+    .contactinfo {display: grid;
+        grid: 250px / auto auto;
     }
     
     /* footer styles */
