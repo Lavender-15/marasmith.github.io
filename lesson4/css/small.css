@@ -80,24 +80,7 @@
     nav ul.hide {
         display: none;
     }
-    
-    /* main styles */
-    
-    img {max-width: 100%;}
-    
-    
-    .placeholder {
-        /* temporary placeholder styles */
-        padding: 2rem;
-        margin: 2rem 1rem;
-        background-color: #0D153B;
-    }
-    
-    /* footer styles */
-    
-    footer {background-color: #454972; color: #CCD2EC;}
-    footer a {color:#CCD2EC;}
-    footer p {text-align: center;}
+   
 
     .weathersum {
         position: absolute;
@@ -167,6 +150,24 @@
 
     .hotspring { float: right; 
     }
+    
+    img {max-width: 100%;}
+    
+    
+    .placeholder {
+        /* temporary placeholder styles */
+        padding: 2rem;
+        margin: 2rem 1rem;
+        background-color: #0D153B;
+    }
+    
+    /* footer styles */
+    
+    footer {background-color: #454972; color: #CCD2EC;}
+    footer a {color:#CCD2EC;}
+    footer p {text-align: center;}
+
+    
     
 
     .social {

@@ -46,17 +46,17 @@
         .fiveday {
             display: block;
         }
-        section.forecast {
+        section.fiveday {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             padding: 1rem 0;
         }
-        section.forecast div h5 {
+        section.fiveday div h5 {
             background-color: #eee;
             margin: 0;
             padding: 1rem 0;
         }
-        section.forecast div {
+        section.fiveday div {
             text-align: center;
             border: 2px solid #aaa;
             max-width: 100%;
