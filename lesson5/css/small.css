@@ -90,9 +90,6 @@
 /* Main */
 
 
-.fiveday {display: none;}
-
-/**/
 
 .weathersummary {
     position: absolute;
@@ -197,14 +194,24 @@ section .forcast{ display: none;}
     flex: wrap;
 }
  .weathersummary {
-    position: absolute; 
+    position: absolute;
     bottom: 250px;
-    right: 1200px; 
+    right: 1200px;
     background: rgba(31, 31, 33,0.8);
-    border: 5px solid black; 
-    padding: 10px; 
+    border: 5px solid black;
+    padding: 10px;
 
-}
+    .social {
+        padding: 1rem;
+    }
+
+    .social img {
+        padding: 2px;
+        -webkit-box-shadow: 5px 5px 11px 1px #000000;
+        box-shadow: 5px 5px 11px 1px #000000;
+        align-items:center;
+        background: white;
+    }
 
 
     .clearfix:after {
