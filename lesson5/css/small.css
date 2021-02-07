@@ -124,6 +124,8 @@ section .forcast{ display: none;}
 
 #message {
     background-color: yellow;
+    color:black; 
+    
 }
 
     .article p {
