@@ -75,6 +75,7 @@
         .map {
             width: 40%;
             height: auto;
+            float: right;
         }
         footer {
             clear: both;
