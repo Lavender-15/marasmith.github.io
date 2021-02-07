@@ -194,12 +194,7 @@ section .forcast{ display: none;}
     flex: wrap;
 }
  .weathersummary {
-    position: absolute;
-    bottom: 250px;
-    right: 1200px;
-    background: rgba(31, 31, 33,0.8);
-    border: 5px solid black;
-    padding: 10px;
+   
 
     .social {
         padding: 1rem;
