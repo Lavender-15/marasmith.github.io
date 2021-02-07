@@ -9,9 +9,9 @@
         margin: 0 auto;
     }
     .weathersummary {
-        position: relative;
-        width: 500px;
-    }
+     position: relative;
+     width: 500px;
+ }
 
         /*----------- HEADER --------------*/
         header img {width: 125px;}
