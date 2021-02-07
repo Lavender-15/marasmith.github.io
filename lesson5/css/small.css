@@ -176,7 +176,7 @@ section .forcast{ display: none;}
 
     img {max-width: 100%;}
 
-    .hotspring {height: 300px;}
+    .hotspring {width: 200px;}
 
     .placeholder {
         /* temporary placeholder styles */
