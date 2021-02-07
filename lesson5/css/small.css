@@ -199,8 +199,7 @@ section .forcast{ display: none;}
     flex: wrap;
 }
  .weathersummary {
-   
-
+}
     .social {
         padding: 1rem;
     }
