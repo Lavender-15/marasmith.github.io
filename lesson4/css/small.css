@@ -89,6 +89,11 @@
     
 /* Main */
 
+
+.fiveday {display: none;}
+
+/**/
+
 .weathersummary {
     position: absolute; 
     bottom: 250px;
