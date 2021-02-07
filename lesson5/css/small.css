@@ -167,10 +167,13 @@ section .forcast{ display: none;}
 
     }
 
+ div h4 { color:#0D153B}
 
+ .forcast img{ margin-top: 20px;}
 
     img {max-width: 100%;}
 
+    .hotspring {width: 400px;}
 
     .placeholder {
         /* temporary placeholder styles */
