@@ -5,7 +5,7 @@
         grid-template-columns: 1fr 1fr;
     }
     .content {
-        max-width: 760px; 
+        max-width: 760px;
         margin: 0 auto;
     }
     .weathersummary {
@@ -17,19 +17,97 @@
         header img {width: 125px;}
         header h1 {font-size: 2rem;}
         header h3 {font-size: 1.5rem;}
-        
+
         /*----------- MAIN --------------*/
-        
+
+
+
+        .fiveday {
+            display: block;
+        }
+
+        .fiveday h2 {
+            margin: 1rem 0 .5rem 0; /* values = top right bottom left */
+        }
+
+        section.fivedayforecast {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            margin-right: 8rem;
+        }
+
+        section.fivedayforecast div {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        section.fivedayforecast div h4 {
+            background-color: #4ECDC4;
+            margin: 0;
+            padding: 1rem 0;
+        }
+
+        section.fivedayforecast img {
+            margin-top: 1.5rem;
+            width: 35%;
+        }
+
+        /**/
+
+
+
+
         /* update font size of headers to fit larger screen */
         h1 {font-size: 2rem;}
         h2 {font-size: 1.5rem;}
         h3 {font-size: 1.3rem;}
-        
-        /*----------- TABLE --------------*/
-        th, td {
-            font-size: 1.0rem;
+
+
+        section.forcast {
+             display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr
         }
-    
-       
-    
+
+        section.forcast div{
+            text-align: center;
+            border: 1px solid #aaa;
+
+        }
+
+        section.forcast div h4 {
+            background-color: #eee;
+            margin: 0;
+            padding: 1rem 0;
+        }
+
+        .weathersummary {
+            top: 60px;
+            left: 60px;
+            padding: 0 1%;
+            font-size: 22px;
+        }
+        .weathersummary p {
+            font-size: 19px;
+        }
+        main {
+            padding: 1rem;
+        }
+
+        section.article div img {
+            display: block;
+            float: right;
+            width: 400px;
+            height: auto;
+            margin: 0 0 0.5rem 0.5rem;
+        }
+        section.contactinfo {
+            display: flex;
+            flex-direction: row;
+        }
+
+        footer {
+            clear: both;
+        }
+
+
     } /* end of media querry*/
