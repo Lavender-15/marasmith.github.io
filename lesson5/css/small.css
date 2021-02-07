@@ -202,7 +202,6 @@ section .forcast{ display: none;}
     flex: wrap;
 }
  .weathersummary {
-<<<<<<< HEAD
     position: absolute;
     bottom: 250px;
     right: 1200px;
@@ -210,9 +209,6 @@ section .forcast{ display: none;}
     border: 5px solid black;
     padding: 10px;}
 
-=======
-}
->>>>>>> 4f4946c2f47d69822e32bf79b45f2483963124c2
     .social {
         padding: 1rem;
     }
