@@ -1,17 +1,11 @@
 @media only screen and (min-width: 1028px){
-
+            /*Head*/
     header, footer, nav, main {max-width: 75rem; margin: auto;}
-    
-    .places {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    
-    div.places {column-count: 3;}
 
+
+
+    /*Nav*/
     nav ul, nav ul.hide {margin-left: 1rem; display: flex;}
-
-
 
     nav ul li { flex: 1 1 100%;}
     nav ul li a {
@@ -23,19 +17,6 @@
         display: none;
     }
 
-
-    main, footer {
-        max-width: 64rem;
-        margin: 0 auto;
-    }
-
-    h2 {
-        margin: 0;
-        overflow: hidden;
-    }
-    main {
-        padding: 1rem;
-    }
     .hero div {
         max-width: 64rem;
     }
@@ -51,11 +32,22 @@
     nav ul li {
         float: left;
     }
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
-        padding: .6rem 1rem;
+    
+
+/*main*/
+    main, footer {
+        max-width: 64rem;
+        margin: 0 auto;
     }
+
+    h2 {
+        margin: 0;
+        overflow: hidden;
+    }
+    main {
+        padding: 1rem;
+    }
+
 .weathersummary {
     top: 50px;
     left: 110px;
