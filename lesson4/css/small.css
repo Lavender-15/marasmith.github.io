@@ -82,7 +82,7 @@
     }
    
 
-    .weathersum {
+    .weathersummary {
         position: absolute;
         color: #00171f;
         top: 20px;
@@ -100,6 +100,23 @@
         display: none;
     }
     
+    .forecasttable th {
+        background-color: #00264c;
+        height: 30px;
+        width: 120px;
+        color: white;
+        text-align: center;
+        border: 1px solid black;
+      }
+
+
+      .forecasttable img {
+        max-width: 90px;
+        height: auto;
+        align-items: center;
+      }
+
+
     section.article {
         color: #00171f;
     }
@@ -143,7 +160,7 @@
     }
     
 
-    .weathersum p {
+    .weathersummary p {
         font-size: 16px;
     }
 
