@@ -82,18 +82,13 @@
     }
    
     .weathersummary {
-        display: grid;
-        grid-template-columns: auto;
-        margin: 0;
-        border: 0;
-        border-radius: 1rem;
-        padding: 1em;
-        background-color: whitesmoke;
-        position: absolute;
-        top: 1rem;
-        left: 1.5rem;
-        max-width: 10em;
-        min-width: 10em;
+        position: absolute; 
+        bottom: 250px;
+        right: 1200px; 
+        background: rgba(31, 31, 33,0.8);
+        border: 5px solid black; 
+        padding: 10px; 
+    
     }
     
     /*{

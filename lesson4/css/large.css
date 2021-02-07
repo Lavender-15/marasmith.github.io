@@ -11,20 +11,7 @@
 
     nav ul, nav ul.hide {margin-left: 1rem; display: flex;}
 
-    .weathersummary {
-        display: grid;
-        grid-template-columns: auto;
-        margin: 0;
-        border: 0;
-        border-radius: 1rem;
-        padding: 1em;
-        background-color: whitesmoke;
-        position: absolute;
-        top: 1rem;
-        left: 1.5rem;
-        max-width: 10em;
-        min-width: 10em;
-    }
+
 
     nav ul li { flex: 1 1 100%;}
     nav ul li a {
