@@ -55,10 +55,10 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .6rem 1rem;
     }
-    .weathersummary {
-        top: 50px;
-        left: 110px;
-    }
+.weathersummary {
+    top: 50px;
+    left: 110px;
+}
     section.article img {
         border: 2px solid #000;
     }

@@ -81,8 +81,22 @@
         display: none;
     }
    
-
     .weathersummary {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        border: 0;
+        border-radius: 1rem;
+        padding: 1em;
+        background-color: whitesmoke;
+        position: absolute;
+        top: 1rem;
+        left: 1.5rem;
+        max-width: 10em;
+        min-width: 10em;
+    }
+    
+    /*{
         position: absolute;
         color: #00171f;
         top: 20px;
@@ -95,6 +109,11 @@
         -webkit-box-shadow: 5px 5px 11px 1px #e0d9d994;
         box-shadow: 5px 5px 11px 1px #4b4a4ac4;
     }
+    
+    .weathersummary p {
+        font-size: 16px;
+    }*/
+
     
     .fiveday {
         display: none;
@@ -144,12 +163,13 @@
         font-size: 17px;
     }
     
-    .map {
-        grid-column: 2/2;
-        width: 100%;
+    .map img {
+        grid-column: 1/2;
+        width: 100px;
         height: auto;
         border: 3px solid #000;
         margin: 1%;
+
         
     }
     .center{ 
@@ -166,10 +186,7 @@
     }
     
 
-    .weathersummary p {
-        font-size: 16px;
-    }
-
+ 
     .hotspring { float: right; 
     }
     
@@ -181,6 +198,10 @@
         padding: 2rem;
         margin: 2rem 1rem;
         background-color: #0D153B;
+    }
+
+    .contactinfo {display: inline;
+    columns: 100px 2;
     }
     
     /* footer styles */
