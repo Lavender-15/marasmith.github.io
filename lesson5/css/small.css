@@ -211,13 +211,14 @@ section .forcast{ display: none;}
     display: flex;
     flex: wrap;
 }
- .weathersummary {
+ section .weathersummary {
     position: absolute;
     bottom: 250px;
     right: 1200px;
     background: rgba(31, 31, 33,0.8);
     border: 5px solid black;
-    padding: 10px;}
+    padding: 10px;
+    text-align: left;}
 
     .social {
         padding: 1rem;
