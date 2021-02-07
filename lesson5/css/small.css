@@ -174,7 +174,7 @@ section .forcast{ display: none;}
         height: auto;
         border: 3px solid #000;
         margin: 1%;
-        margin-left: 200px;
+        margin-left: 800px;
         float: right;
 
 
@@ -186,7 +186,7 @@ section .forcast{ display: none;}
 
     img {max-width: 100%;}
 
-    .hotspring {width: 200px;}
+    .hotspring {width: 50%;}
 
     .placeholder {
         /* temporary placeholder styles */
