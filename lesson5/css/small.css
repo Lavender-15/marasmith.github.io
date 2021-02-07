@@ -99,8 +99,24 @@
     footer a {color:#CCD2EC;}
     footer p {text-align: center;}
 
-
-
+.center {
+    position: relative;
+}
+.hero-content {
+    position: static;
+    display: flex;
+    flex: wrap; 
+}
+.weathersummary {
+    position: relative;
+    display: flex;
+    right 100px;
+    width: 100px;
+    background: rgba(31, 31, 33, 0.8);
+    border: 5px solid black;
+    padding: 10px;
+    
+}
 
 
     .clearfix:after {
