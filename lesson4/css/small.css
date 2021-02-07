@@ -81,7 +81,10 @@
         display: none;
     }
    
-   
+    .active {
+        background-color: black;
+        font-weight: var(--fw-bold);
+    }
 
     
 ]/* Main */
