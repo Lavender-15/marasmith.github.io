@@ -38,7 +38,7 @@ html {
 
 
     header h1, header h2 {
-        margin: 1;
+        margin: 10px;
     }
 
     header img {
@@ -209,7 +209,7 @@ section .forcast{ display: none;}
 .hero-content {
     position: static;
     display: flex;
-    flex: wrap;
+    /*flex: wrap;*/
 }
  section .weathersummary {
     position: absolute;
