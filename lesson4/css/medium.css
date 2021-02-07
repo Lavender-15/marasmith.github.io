@@ -21,7 +21,24 @@
         h1 {font-size: 2rem;}
         h2 {font-size: 1.5rem;}
         h3 {font-size: 1.3rem;}
+
+
+        section.forcast {
+             display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+        }
         
+        section.forcast div{ 
+            text-align: center;
+            border: 1px solid #aaa; 
+
+        }
+
+        section.forcast div h5 {
+            background-color: #eee;
+            margin: 0; 
+            padding: 1rem 0; 
+        }
         /*----------- TABLE --------------*/
         th, td {
             font-size: 1.0rem;

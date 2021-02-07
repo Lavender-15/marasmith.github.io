@@ -114,7 +114,12 @@
         font-size: 16px;
     }*/
 
-    
+
+    section.forcast{ display: none;}
+
+    div#message {
+        background-color: yellow;
+    }
     .fiveday {
         display: none;
     }
