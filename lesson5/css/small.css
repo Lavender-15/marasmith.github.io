@@ -90,9 +90,6 @@
 /* Main */
 
 
-.fiveday {display: none;}
-
-/**/
 
 .weathersummary {
     position: absolute; 
@@ -200,6 +197,7 @@ section .forcast{ display: none;}
         -webkit-box-shadow: 5px 5px 11px 1px #000000;
         box-shadow: 5px 5px 11px 1px #000000;
         align-items:center;
+        background: white; 
     }
 
     footer {  margin: 0;
