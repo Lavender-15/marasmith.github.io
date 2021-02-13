@@ -78,9 +78,9 @@
             padding: 1rem 0;
         }
 
-       /* .weathersummary {
-            top: 60px;
-            left: 60px;
+       .weathersummary {
+            top: 160px;
+            left: 160px;
             padding: 0 1%;
             font-size: 22px;
         }
@@ -89,11 +89,9 @@
         }
         main {
             padding: 1rem;
-        }*/
-
-        .weathersummary {
-            padding: 0.5rem;
         }
+
+
 
         section.article div img {
             display: block;
