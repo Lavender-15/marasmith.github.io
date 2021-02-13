@@ -168,13 +168,13 @@ section .forcast{ display: none;}
         grid: 250px / auto auto;
     }*/
 
-    .map img {
+    .map  {
       /*  grid-column: 1/2;*/
         width: 100px;
         height: auto;
         border: 3px solid #000;
         margin: 1%;
-        margin-left: 800px;
+        margin-left: 1000px;
         float: right;
 
 
