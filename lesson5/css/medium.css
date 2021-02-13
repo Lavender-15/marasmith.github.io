@@ -78,7 +78,7 @@
             padding: 1rem 0;
         }
 
-        .weathersummary {
+       /* .weathersummary {
             top: 60px;
             left: 60px;
             padding: 0 1%;
@@ -89,6 +89,10 @@
         }
         main {
             padding: 1rem;
+        }*/
+
+        .weathersummary {
+            padding: 0.5rem;
         }
 
         section.article div img {
