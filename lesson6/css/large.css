@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1028px){
+            /*Head*/
+    header, footer, nav, main {max-width: 75rem; margin: auto;}
+
+
+
+    /*Nav*/
+    nav ul, nav ul.hide {margin-left: 1rem; display: flex;}
+
+    nav ul li { flex: 1 1 100%;}
+    nav ul li a {
+        padding: .5rem 1rem;
+        font-size: 1.0rem;
+        }
+
+    nav button {
+        display: none;
+    }
+
+    .hero div {
+        max-width: 64rem;
+    }
+    .hamburger {
+        display: none;
+    }
+    .hide {
+        display: block;
+    }
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+    }
+
+
+/*main*/
+    main, footer {
+        max-width: 64rem;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin: 0;
+        overflow: hidden;
+    }
+    main {
+        padding: 1rem;
+    }
+/*
+.weathersummary {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    left: 750px;
+    top: 500px;
+} */
+    
+    
+    section.article img {
+        border: 2px solid #000;
+    }
+
+
+    } /* end of media querry*/
