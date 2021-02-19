@@ -104,14 +104,13 @@ html {
 .weathersummary {
     display: block;
     position: absolute;
-    top: 15px;
-    left: 0.5rem;
+    top: 10px;
+    left: 10px;
     font-family: 'PT Sans Narrow', sans-serif;
     border: 2px solid black;
     opacity: .8;
     background: rgba(31, 31, 33,0.8);
-    margin-top: 150px;
-    margin-left: 300px;
+
 }
 
 /*section .weathersummary {
@@ -220,9 +219,7 @@ section .forcast{ display: none;}
     position: relative;
 }
 .hero-content {
-    position: static;
-    display: flex;
-    /*flex: wrap;*/
+    position: relative;
 }
 
 
