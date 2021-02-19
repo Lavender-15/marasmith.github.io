@@ -104,8 +104,8 @@ html {
 .weathersummary {
     display: block;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 8px;
     font-family: 'PT Sans Narrow', sans-serif;
     border: 2px solid black;
     opacity: .8;
