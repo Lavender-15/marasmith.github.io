@@ -242,6 +242,36 @@ section .forcast{ display: none;}
     }
 
 
+    /*gallery page rules*/
+.gallery {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 20px
+    }
+    
+    
+    .gallery img {
+      max-width: 100%;
+      transition: filter 2s;
+    }
+    .gallery figcaption {
+      display: none;
+    }
+    
+    .gallery img:hover {
+      box-shadow: 0 0 20px black;
+    }
+    .gallery figure {
+      margin: 0;
+    }
+    
+    .gallery img[data-src] {
+      filter: blur(0.5em);
+    }
+
     .clearfix:after {
         content: "";
         display: table;

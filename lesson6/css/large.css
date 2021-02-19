@@ -62,4 +62,35 @@
     }
 
 
+/*gallery*/
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10 0 0 0;
+    gap: 30px
+  }
+  .gallery figcaption {
+    text-align: center;
+    display: block;
+    background-color: #0D153B;
+    color: white;
+    padding : 3px;
+    border: 1px solid black; 
+  }
+  .gallery figure {
+    box-shadow: 0 0 10px black;
+    
+  }
+  .gallery figure:hover{
+    box-shadow: 0 0 20px black;
+  }
+  .gallery img {
+    display: block;
+  }
+  .gallery img:hover {
+    box-shadow: none;
+  }
+  .gallery-social {
+    padding-top: 110px;
+  }
+
     } /* end of media querry*/
