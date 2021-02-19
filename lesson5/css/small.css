@@ -147,8 +147,12 @@ section .forcast{ display: none;}
 #pancake {
     background-color: yellow;
     color:black; 
+    display: flex; 
+    flex-flow: column;
+    margin: auto; 
     text-align: center; 
     width: 100%;
+    padding: 10px;
     
 }
 
