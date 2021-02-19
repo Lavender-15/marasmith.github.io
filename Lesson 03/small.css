@@ -23,7 +23,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: rgb(70, 93, 119);
 }
 header img {float: left; margin-right: 10px; width:50px;}
 header h1 {margin: 0; font-size: 1.3rem;}
@@ -41,7 +41,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #eee;
+    color: rgb(70, 93, 119);
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
