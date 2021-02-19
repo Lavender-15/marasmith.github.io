@@ -105,8 +105,8 @@ html {
 .weathersummary {
     display: block;
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 10px;
+    left: 10px;
     font-family: 'PT Sans Narrow', sans-serif;
     border: 2px solid black;
     opacity: .8;
@@ -148,6 +148,7 @@ section .forcast{ display: none;}
     background-color: yellow;
     color:black; 
     text-align: center; 
+    width: 100%;
     
 }
 
