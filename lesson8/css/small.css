@@ -301,7 +301,7 @@ section .forcast{ display: none;}
         font-size: 1.5rem;
         padding: .5rem;
         background-color: var(--clr-dark);
-        color: #0D153B;
+        color: white;
         border-radius: var(--b-radius);
     }
 
@@ -310,7 +310,7 @@ section .forcast{ display: none;}
         padding-top: 1rem;
     }
 
-    .top input, .top select {
+    .top input, .top select, .formfield {
         -webkit-appearance: none;
         display: block;
         font-size: 1rem;
@@ -348,12 +348,27 @@ section .forcast{ display: none;}
         font-weight: 700;
     }
 
-    #rating {
+    #rating, .formfield {
         min-width: 8rem;
         width: calc(50vw - 1.25rem);
         max-width: 11.25rem;
     }
     
+    .storm-page .formfield label {
+        display:flex;
+        flex-direction: column;
+      }
+      .storm-page .formfield .dangerlevel {
+        flex-direction: row;
+      }
+        
+      .storm-page .formfield .dangerlevel .optionvalue {
+        position: relative;
+        top: 10px;
+        left: 15px;
+      }
+
+
     .submitBtn {
         border: none;
         background-color: #0D153B;
