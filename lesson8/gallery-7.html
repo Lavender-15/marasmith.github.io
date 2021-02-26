@@ -1,0 +1,146 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="vwidth=device-width, initial-scale=1, maximum scale=1" />
+  <title>Preston-BreezyWeather</title>
+  <meta name="description" content="Breezyweather site made for Mara Smith in WDD 230: Web Frontend Development at Brigham Young University - Idaho"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="shortcut icon" href="images/favicon_breezyweather.ico">
+</head>
+<body>
+
+
+    <header> 
+            <div class="logo">
+                <img src="images/weatherlogo.png" alt="logo">
+            </div>
+        <div class= "header"> <h1>BreezyWeather</h1> <h3>Wind rain or shine, it's all divine! </h3></div>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide" >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="blank">Soda Springs</a></li>
+            <li><a href="blank">Fish Haven</a></li> 
+            <li><a href="blank">Storm Center</a></li>    
+            <li class="active"><a href="gallery-7.html">Gallery</a></li> 
+        </ul>
+    </nav>
+  <main>
+
+    <h1> Weather Gallery</h1>
+    <div class="gallery">
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realclear.jpg"
+    alt = "a clear mountain night"/>
+    <figcaption> A Clear Mountain Night</figcaption>
+</figure>
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realrain.jpg"
+    alt = "Rain on a Sidewalk"/>
+    <figcaption> Rain on a Sidewalk</figcaption>
+</figure>
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realsleet.jpg"
+    alt = "Sleet in a Park"/>
+    <figcaption> Sleet in a Park</figcaption>
+</figure>
+
+<figure> <picture>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realclouds.jpg"
+    alt = "A Cloudy Day"> </picture>
+    <figcaption> A Cloudy Day</figcaption>
+</figure>
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realsnow.jpg"
+    alt = "Snow on a Pathway"/>
+    <figcaption> Snow on a Pathway</figcaption>
+</figure>
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realsun.jpg"
+    alt = "A Sunny Field"/>
+    <figcaption> A Sunny Field</figcaption>
+</figure>
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realsunrise.jpg"
+    alt = "A Mountain Sunrise"/>
+    <figcaption> A Mountain Sunrise</figcaption>
+</figure>
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/reallightning.jpg"
+    alt = "Lightning in a Storm"/>
+    <figcaption> Lightning in a Storm</figcaption>
+</figure>
+
+<figure>
+    <img src="images/placeholder500400.jpg" 
+    data-src="images/realmist.jpg"
+    alt = "A Misty Forest"/>
+    <figcaption> A Misty Forest</figcaption>
+</figure>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+     <footer>
+        <div class="social">
+            <a href="https://facebook.com" target="blank">
+                <img src="images/facebook.png" alt="facebook icon" width = "50"></a>
+            <a href="https://instagram.com" target="blank">
+                <img src="images/instagram.png" alt="instagram icon" width = "50"></a>
+            <a href="https://twitter.com " target="blank">
+                <img src="images/twitter.png" alt="twitter icon" width = "50"></a>
+            <a href="https://youtube.com " target="blank">
+                <img src="images/youtube.png" alt="youtube icon" width = "50"></a>
+        </div>
+    
+        <p>
+            &copy; 2021 | Mara Smith | Meridian, Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+            <br>
+            <span id="currentdate"></span>
+          </p>
+    
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/lazyload.js"></script>
+    </body>
+    
+    </html>  
