@@ -9,3 +9,7 @@ function selectResponse() {
 	s.textContent = sel.value;
 	
 }
+
+function updateSeverity(val) {
+    document.getElementById('severitydisplay').innerHTML = "Severity: " + val; 
+  }

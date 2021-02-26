@@ -298,7 +298,7 @@ section .forcast{ display: none;}
     fieldset legend {
         padding: 0 .5rem 0 .5rem;
         box-shadow: var(--bs);
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         padding: .5rem;
         background-color: var(--clr-dark);
         color: #0D153B;
@@ -326,7 +326,6 @@ section .forcast{ display: none;}
         display: block;
         padding: .75rem 0;
         color: var(--clr-darker);
-        background-color: #0D153B;
     }
 
     .sbs:active {
@@ -341,7 +340,7 @@ section .forcast{ display: none;}
     .flexly {
         display: flex;
         padding-top: 1rem;
-        color: #0D153B;
+    
     }
 
     #ratingvalue {
@@ -373,6 +372,7 @@ section .forcast{ display: none;}
     .submitBtn:hover {
         background-color: var(--clr-red);
         letter-spacing: .15rem;
+        background-color: #0D153B;
     }
 
     .top input:required {
