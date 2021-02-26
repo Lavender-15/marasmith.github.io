@@ -341,6 +341,7 @@ section .forcast{ display: none;}
     .flexly {
         display: flex;
         padding-top: 1rem;
+        color: #0D153B;
     }
 
     #ratingvalue {
