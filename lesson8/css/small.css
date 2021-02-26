@@ -301,7 +301,7 @@ section .forcast{ display: none;}
         font-size: 1.2rem;
         padding: .5rem;
         background-color: var(--clr-dark);
-        color: white;
+        color: #0D153B;
         border-radius: var(--b-radius);
     }
 
@@ -326,6 +326,7 @@ section .forcast{ display: none;}
         display: block;
         padding: .75rem 0;
         color: var(--clr-darker);
+        background-color: #0D153B;
     }
 
     .sbs:active {
@@ -355,7 +356,7 @@ section .forcast{ display: none;}
     
     .submitBtn {
         border: none;
-        background-color: #454972;
+        background-color: #0D153B;
         color: white;
         border-radius: calc(var(--b-radius)*3);
         box-shadow: var(--bs);
