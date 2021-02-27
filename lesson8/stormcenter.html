@@ -37,12 +37,11 @@
             <li><a href="gallery-7.html">Gallery</a></li> 
         </ul>
     </nav>
-  <main>
+  <main class= "clearfix">
     
     
-<!-- Area 1 -->
-        
-<form method="GET" aciton="thanks.html">
+<!-- Area 1 -->       
+<form method="GET" action="thanks.html">
 
 <fieldset>
     <legend>Contact Information  </legend>
@@ -93,7 +92,7 @@
             <option value="10">
         </datalist> -->
 
-        <label class="top">Storm Region
+        <label class="top, stormregion">Storm Region
             <select name="region">
                 <option value="">Please Select &#9662;</option>
                 <option value="preston">Preston</option>
@@ -102,10 +101,13 @@
             </select>
 
         </label>
-        <div class="top">Are you in danger?</div>
-        <label class="dangerlevel">Yes <input type="radio" name="dangerLevel" value="yes"><span class="optionvalue"></span> </label>
-        <label class="dangerlevel">Maybe <input type="radio" name="dangerLevel" value="maybe"><span class="optionvalue"></span> </label>
-        <label class="dangerlevel">No <input type="radio" name="dangerLevel" value="no"><span class="optionvalue"></span> </label>
+        <div>Are you in danger?</div>
+        <label class="dangerlevel">Yes
+             <input type="radio" name="radio" value="yes"><span class="optionvalue"></span> </label>
+        <label class="dangerlevel">Maybe
+             <input type="radio" name="radio" value="maybe"><span class="optionvalue"></span> </label>
+        <label class="dangerlevel">No 
+            <input type="radio" name="radio" value="no"><span class="optionvalue"></span> </label>
     </fieldset>
 
 <!-- Area 3 -->

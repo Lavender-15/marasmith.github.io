@@ -281,6 +281,8 @@ section .forcast{ display: none;}
     .right-filler {
         display: none;
     }
+    .formfield { margin-top: 10px;}
+    .dangerlevel{ margin-top: 50px;}
 
     .storm-grid {
         margin: 1rem auto;
@@ -310,7 +312,7 @@ section .forcast{ display: none;}
         padding-top: 1rem;
     }
 
-    .top input, .top select, .formfield {
+    .top input, .top select {
         -webkit-appearance: none;
         display: block;
         font-size: 1rem;
@@ -362,12 +364,14 @@ section .forcast{ display: none;}
         flex-direction: row;
       }
         
-      .storm-page .formfield .dangerlevel .optionvalue {
+      .storm-page .formfield .dangerlevel {
         position: relative;
         top: 10px;
         left: 15px;
       }
+      #severitydisplay input{color: #0D153B;
 
+      }
 
     .submitBtn {
         border: none;
