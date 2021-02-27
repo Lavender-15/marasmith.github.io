@@ -377,21 +377,16 @@ section .forcast{ display: none;}
         border: none;
         background-color: #0D153B;
         color: white;
-        border-radius: calc(var(--b-radius)*3);
-        box-shadow: var(--bs);
         font-size: 1.25rem;
         font-weight: 700;
-        letter-spacing: .1rem;
         padding: .75rem 1.5rem;
         width: 96%;
-        max-width: 22rem;
-        
+        max-width:22rem; 
     }
 
     .submitBtn:hover {
-        background-color: var(--clr-red);
-        letter-spacing: .15rem;
-        background-color: #0D153B;
+        background-color: #CCD2EC;
+        color: black;
     }
 
     .top input:required {
