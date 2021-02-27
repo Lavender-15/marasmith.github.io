@@ -281,8 +281,8 @@ section .forcast{ display: none;}
     .right-filler {
         display: none;
     }
-    .formfield { margin-top: 10px;}
-    .dangerlevel{ margin-top: 50px;}
+    .formfield, .stormregion, .dangerlevel { margin-top: 10px;}
+   
 
     .storm-grid {
         margin: 1rem auto;
