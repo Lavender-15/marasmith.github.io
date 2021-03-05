@@ -242,6 +242,91 @@ section .forcast{ display: none;}
     }
 
 
+
+ /* Town Data */
+ .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px 8rem 5rem;
+    grid-template-areas: "image" "title" "info";
+    box-shadow: var(--bs);
+    border-radius: 1rem;
+    background: var(--clr-light);
+    text-align: center;
+    width: 300px;
+    margin-bottom: 1rem;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.card-image {
+    grid-area: image;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-size: cover;
+
+}
+
+.card-title {
+    grid-area: title;
+    margin: .5rem 1.5rem 0 1.5rem;
+}
+
+.card-title h3 {
+    font-size: var(--fs-h1);
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+.card-title h4 {
+    font-size: 1.2rem;
+}
+
+.card-info {
+    grid-area: info;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--clr-darkred);
+}
+
+.card-info .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--clr-light);
+}
+
+.card-info > div:nth-of-type(2) {
+    border-left: 1px solid var(--clr-dark);
+    border-right: 1px solid var(--clr-dark);
+}
+
+.card-info .type {
+    padding: .25rem .75rem 0 .75rem;
+    font-size: .85rem;
+}
+
+.card-info .value {
+    font-weight: var(--fw-bold);
+}
+
+
+
+
+
+
+
     /*gallery page rules*/
 .gallery {
     display: grid;
