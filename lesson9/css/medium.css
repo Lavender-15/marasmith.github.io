@@ -50,7 +50,7 @@
             width: 35%;
         }
 
-        /**/
+    
 
 
 
@@ -115,5 +115,24 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+
+
+
+  /*Town Stuff*/
+  .card {
+    grid-template-columns: 16.5rem 16.5rem;
+    grid-template-rows: 170px 80px;
+    width: 33rem;
+    justify-content: center;
+}
+
+.card-title h2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 5rem;
+    
+}
+  
 
     } /* end of media querry*/

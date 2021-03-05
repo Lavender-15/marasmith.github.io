@@ -116,4 +116,43 @@
     padding: 0.25rem 0;
 }
 
+
+/*Town Stuff*/
+
+.cards {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    grid-template-columns: 280px;
+    width: 280px;
+}
+
+.card-title h2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 5rem;
+    
+}
+
+/* 5 Days Forecast */
+.forecast__grid div {
+    margin: 0;
+}
+
+.forecast__grid {
+    grid-gap: calc(1rem + 3vw);
+}
+
+.event p {
+    font-size: 1.25rem;
+}
+
+/* Contact */
+.contact__column {
+    padding: 0;
+}
+
+
     } /* end of media querry*/
