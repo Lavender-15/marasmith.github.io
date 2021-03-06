@@ -241,71 +241,26 @@ section .forcast{ display: none;}
         background: white;
     }
 
-
-
- /* Town Data */
- .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
+/*Town Stuff*/
+#cards img{
+    width:300px;
+    box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
 }
 
-.card {
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 250px 8rem 5rem;
-    grid-template-areas: "image" "title" "info";
-    text-align: center;
-    width: 300px;
-    margin-bottom: 1rem;
-    color:#0D153B;
-    border:rgba(31, 31, 33,0.8) solid 2px;
-
-}
-
-.card-image {
-    grid-area: image;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    background-size: cover;
-
-}
-
-.card-title {
-    grid-area: title;
-    margin: .5rem 1.5rem 0 1.5rem;
-}
-
-.card-title h3 {
-    padding-bottom: .5rem;
-    text-transform: uppercase;
-}
-
-.card-title h4 {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 5rem;
-    
-}
-
-.card-info {
-    grid-area: info;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+#cards div {
+    color: #0D153B;
+    display: block;
+    border: #0D153B solid 2px;
     background-color: #CCD2EC;
     
-}
-
-.card-info .info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     
 }
 
+#cards {
+    text-align: center;
+    
+}
+ 
 
 .articleimg{
     padding-left: 2rem;

@@ -119,22 +119,33 @@
 
 /*Town Stuff*/
 
-.cards {
-    flex-direction: row;
-    justify-content: space-between;
+#cards img{
+    width:300px;
+    box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
 }
 
-.card {
-    grid-template-columns: 280px;
-    width: 280px;
-}
-
-.card-title h2 {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 5rem;
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px;
+    
+    
+   
+    justify-content: center;
+    text-align: center;
+    
     
 }
+#cards div {
+    color: #0D153B;
+    display: block;
+    border: #0D153B solid 2px;
+    background-color: #CCD2EC;
+    
+    
+}
+
 
 /* 5 Days Forecast */
 .forecast__grid div {
@@ -148,6 +159,7 @@
 .event p {
     font-size: 1.25rem;
 }
+
 
 /* Contact */
 .contact__column {
