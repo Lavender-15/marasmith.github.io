@@ -11,7 +11,7 @@ fetch(apiURL)
     document.getElementById('place').innerHTML=weatherinfo.name;
     document.getElementById('currentTemp').innerHTML=weatherinfo.main.temp;
     document.getElementById("hightemp").innerHTML = weatherInfo.main.temp_max;
-    document.getElementById('windSpeed').innerHTML=weatherinfo.wind.speed;
+    document.getElementById('windSpeed').innerHTML=weatherinfo.list[0].wind.speed;
 
     document.getElementById("humid").innerHTML = weatherInfo.main.humidity;
     
@@ -36,6 +36,23 @@ fetch(apiURL)
  } else {
    document.getElementById("chill").textContent = "N/A";
  }
+
+ const tempNumber = parseFloat(document.getElementById("currentTemp").textContent);
+ //consle.log(tempNumber);
+ const speedNumber = parseFloat(document.getElementById("windSpeed").textContent);
+ //console.log(speedNumber);
+ 
+ let windchill = 35.74 + (0.6215 * Math.pow(speedNumber, 0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
+ windchill = Math.round(windchill);
+ 
+ if(tempNumber<=50 && speedNumber > 3) {
+     document.getElementById("chill").textContent = "Wind Chill: "+windchill+"\xB0F";
+ }
+ else {
+     document.getElementById("chill").textContent = "No Wind Chill";
+ }
+
+
 });
 
 

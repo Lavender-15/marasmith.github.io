@@ -1,4 +1,3 @@
-
 const d = new Date();
 
 const todayDayNumber = d.getDay();
@@ -12,7 +11,8 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
+const apifURL =
+  "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=ed322eeeaba3fbf6a615b4175fa51fdf&units=imperial";
 fetch(apifURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
@@ -62,7 +62,7 @@ fetch(apifURL)
   });
 
 const apiURL =
-  "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=ed322eeeaba3fbf6a615b4175fa51fdf&units=imperial";
+  "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {

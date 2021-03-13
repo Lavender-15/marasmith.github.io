@@ -57,11 +57,7 @@ for(i = 0; i<MediaQueryList.length;i++){
     }
   });
 
-  //ADD the key and change units to imperial
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
-
-//Go fetch it and then wait for a response. (zip={idcode},us)
-fetch(apiURL)
+ fetch(apiURL)
   .then((response) => response.json())
   .then((weatherinfo) => {
     //Once it comes back, display it to the console.
@@ -69,13 +65,42 @@ fetch(apiURL)
     
     document.getElementById('place').innerHTML=weatherinfo.name;
     document.getElementById('currentTemp').innerHTML=weatherinfo.main.temp;
+    document.getElementById('highTemp').innerHTML=weatherinfo.main.temp_max;
     document.getElementById('windSpeed').innerHTML=weatherinfo.wind.speed;
+    document.getElementById("humid").innerHTML = weatherinfo.main.humidity;
+ ;
 
-const iconcode = weatherinfo.weather[0].icon;
-console.log(iconcode);
+ /*s = wind speed t = temperature*/
+ const s = weatherinfo.wind.speed;
+ const t = weatherinfo.main.temp;
+ let wc =
+   35.74 +
+   0.6215 * t -
+   35.75 * Math.pow(s, 0.16) +
+   0.4275 * t * Math.pow(s, 0.16);
+ wc = Math.round(wc);
+ if (t <= 50 && s > 3) {
+   document.getElementById("chill").textContent = wc + "\xB0" + "F";
+ } else {
+   document.getElementById("chill").textContent = "N/A";
+ }
 
-const icon_path = "http://openweathermap.org/img/w/" + iconcode + ".png";
-console.log(icon_path);
+ /*const tempNumber = parseFloat(document.getElementById("currentTemp").textContent);
+ //consle.log(tempNumber);
+ const speedNumber = parseFloat(document.getElementById("windSpeed").textContent);
+ //console.log(speedNumber);
+ 
+ let windchill = 35.74 + (0.6215 * Math.pow(speedNumber, 0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
+ windchill = Math.round(windchill);
+ 
+ if(tempNumber<=50 && speedNumber > 3) {
+     document.getElementById("chill").textContent = "Wind Chill: "+windchill+"\xB0F";
+ }
+ else {
+     document.getElementById("chill").textContent = "No Wind Chill";
+ }
+*/
 
-document.getElementById("weather_icon").src = icon_path;
- }); //end of "then" fat arrow function
+});
+
+

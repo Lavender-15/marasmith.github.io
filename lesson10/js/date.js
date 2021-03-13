@@ -27,13 +27,10 @@ const dayName = daynames[day.getDay()];
 const monthName = months[day.getMonth()];
 const year = day.getFullYear();
 
-const fulldate = `${dayName}, ${day.getDate()} ${monthName} ${year}`;
-document.getElementById("update").textContent = fulldate;
+const currentdate = dayName + ", " + day.getDate() + " " + monthName + " " + year;
+const options = {weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'};
+document.getElementById("currentdate").textContent = currentdate;
 
-let dayOfWeek = new Date();
-const banner = document.getElementById("alert");
-if (dayOfWeek.getDay() == 5) {
-    banner.style.display = "content";
-} else {
-    banner.style.display = "none";
-}
+//const fulldate = `${dayName}, ${day.getDate()} ${monthName} ${year}`;
+//document.getElementById("update").textContent = fulldate;
+
