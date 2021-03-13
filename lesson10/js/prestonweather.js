@@ -24,7 +24,12 @@ fetch(apiURL)
 
 for(i = 0; i<MediaQueryList.length;i++){
         var time = mylist [i].dt_txt;
-        if (time.includes("21:00:00")){
+        if (time.includes("18:00:00")) {
+          console.log(
+            "Found an entry with 18:00:00 in the time. It was report " +
+              i +
+              " from the mylist of 40"
+          );
 
         forecastDayNumber += 1;
         if (forecastDayNumber === 7) {
@@ -87,22 +92,6 @@ for(i = 0; i<MediaQueryList.length;i++){
  } else {
    document.getElementById("chill").textContent = "N/A";
  }
-
- /*const tempNumber = parseFloat(document.getElementById("currentTemp").textContent);
- //consle.log(tempNumber);
- const speedNumber = parseFloat(document.getElementById("windSpeed").textContent);
- //console.log(speedNumber);
- 
- let windchill = 35.74 + (0.6215 * Math.pow(speedNumber, 0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
- windchill = Math.round(windchill);
- 
- if(tempNumber<=50 && speedNumber > 3) {
-     document.getElementById("chill").textContent = "Wind Chill: "+windchill+"\xB0F";
- }
- else {
-     document.getElementById("chill").textContent = "No Wind Chill";
- }
-*/
 
 });
 
