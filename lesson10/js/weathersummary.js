@@ -11,6 +11,9 @@ fetch(apiURL)
     document.getElementById('place').innerHTML=weatherinfo.name;
     document.getElementById('currentTemp').innerHTML=weatherinfo.main.temp;
     document.getElementById('windSpeed').innerHTML=weatherinfo.wind.speed;
+    document.getElementById("speed").innerHTML = weatherInfo.wind.speed;
+    document.getElementById("humid").innerHTML = weatherInfo.main.humidity;
+    document.getElementById("hightemp").innerHTML = weatherInfo.main.temp_max;
 
     let current = `${weatherInfo.weather[0].description}, ${weatherInfo.main.temp}`;
     document.getElementById("current").innerHTML = current.replace(/^\w/, (c) =>
