@@ -64,7 +64,10 @@ for(i = 0; i<MediaQueryList.length;i++){
     console.log(weatherinfo);
     
     document.getElementById('place').innerHTML=weatherinfo.name;
-    document.getElementById('currentTemp').innerHTML=weatherinfo.main.temp;
+    let current = `${weatherinfo.weather[0].description}, ${weatherinfo.main.temp}`;
+    document.getElementById("current").innerHTML = current.replace(/^\w/, (c) =>
+      c.toUpperCase()
+    );
     document.getElementById('highTemp').innerHTML=weatherinfo.main.temp_max;
     document.getElementById('windSpeed').innerHTML=weatherinfo.wind.speed;
     document.getElementById("humid").innerHTML = weatherinfo.main.humidity;
