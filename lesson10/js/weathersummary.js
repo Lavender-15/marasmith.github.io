@@ -12,14 +12,25 @@ fetch(apiURL)
     document.getElementById('currentTemp').innerHTML=weatherinfo.main.temp;
     document.getElementById('windSpeed').innerHTML=weatherinfo.wind.speed;
 
-const iconcode = weatherinfo.weather[0].icon;
-console.log(iconcode);
+    let current = `${weatherInfo.weather[0].description}, ${weatherInfo.main.temp}`;
+    document.getElementById("current").innerHTML = current.replace(/^\w/, (c) =>
+      c.toUpperCase()
+    );
 
-const icon_path = "http://openweathermap.org/img/w/" + iconcode + ".png";
-console.log(icon_path);
-
-document.getElementById("weather_icon").src = icon_path;
- }); //end of "then" fat arrow function
-
+ /*s = wind speed t = temperature*/
+ const s = weatherInfo.wind.speed;
+ const t = weatherInfo.main.temp;
+ let wc =
+   35.74 +
+   0.6215 * t -
+   35.75 * Math.pow(s, 0.16) +
+   0.4275 * t * Math.pow(s, 0.16);
+ wc = Math.round(wc);
+ if (t <= 50 && s > 3) {
+   document.getElementById("chill").textContent = wc + "\xB0" + "F";
+ } else {
+   document.getElementById("chill").textContent = "N/A";
+ }
+});
 
 
