@@ -36,9 +36,18 @@
 
 /*main*/
 
-.forecast{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
+
+
+/*Forecast*/
+
+.forecastTitle {
+    padding-left: 0;
+    padding-bottom: 15px;}
+
+    .forecast div {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+
+
     main, footer {
         max-width: 64rem;
         margin: 0 auto;

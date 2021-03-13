@@ -11,8 +11,8 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
-fetch(apiURL)
+const apifURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
+fetch(apifURL)
   .then((response) => response.json())
   .then((weatherinfo) => {
     //Once it comes back, display it to the console.
@@ -22,7 +22,9 @@ fetch(apiURL)
      let forecastDayNumber = todayDayNumber;
      console.log(forecastDayNumber);
 
-for(i = 0; i<MediaQueryList.length;i++){
+     let mylist = weatherinfo.list;
+
+for(i = 0; i<mylist.length;i++){
         var time = mylist [i].dt_txt;
         if (time.includes("18:00:00")) {
           console.log(
@@ -61,7 +63,7 @@ for(i = 0; i<MediaQueryList.length;i++){
       }
     }
   });
-
+  const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
  fetch(apiURL)
   .then((response) => response.json())
   .then((weatherinfo) => {
