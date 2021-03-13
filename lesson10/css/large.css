@@ -35,6 +35,10 @@
 
 
 /*main*/
+
+.forecast{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
     main, footer {
         max-width: 64rem;
         margin: 0 auto;

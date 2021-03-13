@@ -52,8 +52,7 @@ for(i = 0; i<MediaQueryList.length;i++){
     
             document.getElementById("forecastDays").append(theDay);
 
-        // cards.append(card);
-        // card.append(theTemp);
+        
       }
     }
   });

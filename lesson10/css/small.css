@@ -140,6 +140,13 @@ html {
     font-size: 16px;
 }*/
 
+.forecast{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 20px;
+}
+
 
 section .forcast{ display: none;}
 
