@@ -1,4 +1,4 @@
-const d = new Date();
+const day = new Date();
 
 const daynames = [
 	"Sunday",
@@ -23,11 +23,11 @@ const months = [
 	"November",
 	"December"
 ];
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
+const dayName = daynames[day.getDay()];
+const monthName = months[day.getMonth()];
+const year = day.getFullYear();
 
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+const fulldate = `${dayName}, ${day.getDate()} ${monthName} ${year}`;
 document.getElementById("update").textContent = fulldate;
 
 let dayOfWeek = new Date();
