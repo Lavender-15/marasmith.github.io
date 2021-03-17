@@ -9,7 +9,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
-            if (i == 1 || i == 5 || i == 6) {
+            if (i == 0 || i == 2 || i == 6) {
                 let card = document.createElement('div');
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
