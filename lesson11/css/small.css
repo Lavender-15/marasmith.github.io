@@ -108,8 +108,8 @@ html {
     border: 2px solid black;
     opacity: .8;
     background: rgba(31, 31, 33,0.8);
-    top: 10px;
-    left: -100px;
+margin-top: -150px;
+margin-left: -150px;
 
 }
 
