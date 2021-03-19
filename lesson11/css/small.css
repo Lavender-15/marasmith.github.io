@@ -219,14 +219,15 @@ html {
     }
 
     .contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: block;
         grid-gap: 1rem;
         
     }
 
     .contact p {
         font-size: 17px;
+        padding: 10px;
+
     }
 
     /*.contactinfo {display: grid;
@@ -234,13 +235,11 @@ html {
     }*/
 
     .map  {
-      /*  grid-column: 1/2;*/
-        width: auto;
+        width: 400px;
         height: auto;
         border: 3px solid #000;
         margin: 1%;
-        float: right;
-        margin-left: 100px;
+        top: 100px;
 
 
 
