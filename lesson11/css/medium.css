@@ -82,7 +82,7 @@
         }
 
        .weathersummary {
-            top: 300px;
+            margin-top: 300px;
             left: 10px;
             padding: 0 1%;
             font-size: 1rem;
