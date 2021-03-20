@@ -81,13 +81,13 @@
             padding: 1rem 0;
         }
 
-       .weathersummaryf {
+       .weathersummary {
             top: 370px;
             left: 50px;
             padding: 0 1%;
             font-size: 1rem;
         }
-        .weathersummaryf p {
+        .weathersummary p {
             font-size: 19px;
         }
 
