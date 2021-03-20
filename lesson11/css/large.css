@@ -62,8 +62,8 @@
     }
 
     .weathersummary {
-        top: 10px;
-        left: 10px;
+        top: 100px;
+        left: 15px;
         padding: 0 1%;
         font-size: 1rem;
     }
