@@ -61,7 +61,26 @@
         padding: 1rem;
     }
 
+    .weathersummaryp {
+        top: 450px;
+        left: 120px;
+        padding: 0 1%;
+        font-size: 1rem;
+    }
 
+    .weathersummarys {
+        top: 230px;
+        left: 50px;
+        padding: 0 1%;
+        font-size: 1rem;
+    }
+
+    .weathersummaryf {
+        top: 400px;
+        left: 280px;
+        padding: 0 1%;
+        font-size: 1rem;
+    }
     
     
     section.article img {

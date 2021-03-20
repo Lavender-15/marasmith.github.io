@@ -8,11 +8,7 @@
         max-width: 760px;
         margin: 0 auto;
     }
-    .weathersummary {
-        margin-top: -150px;
-        margin-left: -150px;
-        
-        } 
+    
 
         /*----------- HEADER --------------*/
         header img {width: 125px;}
@@ -85,19 +81,44 @@
             padding: 1rem 0;
         }
 
-       .weathersummary {
-            top: 160px;
-            left: 160px;
+       .weathersummaryf {
+            top: 370px;
+            left: 50px;
             padding: 0 1%;
-            font-size: 22px;
+            font-size: 1rem;
         }
-        .weathersummary p {
+        .weathersummaryf p {
             font-size: 19px;
         }
+
+
+        .weathersummaryp {
+            top: 440px;
+            left: 50px;
+            padding: 0 1%;
+            font-size: 1rem;
+        }
+        .weathersummaryp p {
+            font-size: 19px;
+        }
+
+        .weathersummarys {
+            top: 230px;
+            left: 50px;
+            padding: 0 1%;
+            font-size: 1rem;
+        }
+        .weathersummarys p {
+            font-size: 19px;
+        }
+
         main {
             padding: 1rem;
         }
 
+        .upcoming {
+            margin-left: 300px;
+        }
 
 
         section.article div img {
