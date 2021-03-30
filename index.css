@@ -32,3 +32,6 @@ margin: 10px;
 font-size: 1.2em;
 list-style: none;
 }
+img{
+    float: top;
+}
