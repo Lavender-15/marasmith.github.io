@@ -9,7 +9,7 @@ body { display: block; border-radius: 10px;}
 html {margin: 1rem auto;
 max-width: 850px;}
 .imageofme { margin-left: 550px; 
-margin-top: -150px; }
+margin-top: -630px; }
 main {
 font-family: 'Potta One', cursive;
 font-family: 'Source Sans Pro', sans-serif;
@@ -31,7 +31,4 @@ li {
 margin: 10px;
 font-size: 1.2em;
 list-style: none;
-}
-img{
-    float: top;
 }
