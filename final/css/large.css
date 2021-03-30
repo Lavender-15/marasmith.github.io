@@ -1,0 +1,183 @@
+@media only screen and (min-width: 72em){
+    /*Head*/
+header, footer, nav, main {width: 100%; margin: auto;}
+
+
+
+/*Nav*/
+nav ul, nav ul.hide {margin-left: 1rem; display: flex;}
+
+nav ul li { flex: 1 1 100%;}
+nav ul li a {
+padding: .5rem 1rem;
+font-size: 1.0rem;
+}
+
+nav button {
+display: none;
+}
+
+.hero div {
+max-width: 64rem;
+}
+.hamburger {
+display: none;
+}
+.hide {
+display: block;
+}
+nav ul {
+margin-left: 2%;
+}
+nav ul li {
+float: left;
+}
+
+
+/*main*/
+
+
+
+/*Forecast*/
+
+.forecastTitle {
+padding-left: 0;
+padding-bottom: 15px;}
+
+.forecast div {
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+
+
+main, footer {
+max-width: 64rem;
+margin: 0 auto;
+}
+
+h2 {
+margin: 0;
+overflow: hidden;
+}
+main {
+padding: 1rem;
+}
+
+.weathersummary {
+left: 15px;
+padding: 0 1%;
+font-size: 1rem;
+}
+
+
+
+
+section.article img {
+border: 2px solid #000;
+}
+
+
+/*gallery*/
+.gallery {
+grid-template-columns: 1fr 1fr 1fr;
+padding: 10px 0px 0px 0px;
+gap: 30px
+}
+.gallery figcaption {
+text-align: center;
+display: block;
+background-color: #0D153B;
+color: white;
+padding : 3px;
+border: 1px solid black; 
+}
+.gallery figure {
+box-shadow: 0 0 10px black;
+
+}
+.gallery figure:hover{
+box-shadow: 0 0 20px black;
+}
+.gallery img {
+display: block;
+}
+.gallery img:hover {
+box-shadow: none;
+}
+.gallery-social {
+padding-top: 110px;
+}
+
+
+/* ---------- Storm Center ---------- */
+.right-filler {
+display: block;
+overflow: hidden;
+box-shadow: var(--bs);
+border-radius: var(--b-radius);
+margin-top: 2rem;
+}
+
+.storm-grid {
+display: grid;
+grid-template-columns: 22rem auto;
+grid-gap: 2rem;
+align-items: center;
+margin: 1rem 0;
+
+}
+
+.sbs {
+padding: 0.25rem 0;
+}
+
+
+/*Town Stuff*/
+
+#cards img{
+width:300px;
+box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
+}
+
+#cards {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px;
+margin: 20px;
+
+
+
+justify-content: center;
+text-align: center;
+
+
+}
+#cards div {
+color: #0D153B;
+display: block;
+border: #0D153B solid 2px;
+background-color: #CCD2EC;
+
+
+}
+
+
+/* 5 Days Forecast */
+.forecast__grid div {
+margin: 0;
+}
+
+.forecast__grid {
+grid-gap: calc(1rem + 3vw);
+}
+
+.event p {
+font-size: 1.25rem;
+}
+
+
+/* Contact */
+.contact__column {
+padding: 0;
+}
+
+
+} /* end of media querry*/
