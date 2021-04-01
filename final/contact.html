@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="vwidth=device-width, initial-scale=1, maximum scale=1" />
+  <title>Home-ChamberofComerce</title>
+  <meta name="description" content="Chamber of Commerce Boise Idaho site made for Mara Smith in WDD 230: Web Frontend Development at Brigham Young University - Idaho"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="shortcut icon" href="images/favicon_io/favicon.ico">
+</head>
+<body>
+
+    <header> 
+            <div class="logo">
+                <img src="images/idaho-logo.png" alt="logoofidaho">
+            </div>
+        <div class= "header"> <h1>BOISE IDAHO</h1> <h3>Chamber of Commerce </h3></div>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide" >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li> 
+            <li><a href="directory.html">Directory</a></li>    
+            <li><a href="city.html">City</a></li> 
+        </ul>
+    </nav>
+  <main>
+    <fieldset>
+    <label class="top">Full Name* <input type="text" name="fname" placeholder="John Doe" pattern="[A-Za-z ]{5,}" required></label>
+    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" requried></label>
+    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>    
+    <label class="textbottom">
+        <textarea name="addition"
+        placeholder="Add comments here..."rows="10" cols="50"></textarea></label>
+   <label>
+</fieldset>
+    </main>
+</body>
+
+<footer>
+        <div class="social">
+            <a href="https://facebook.com" target="blank">
+                <img src="images/facebook.png" alt="facebook icon" width = "50"></a>
+            <a href="https://instagram.com" target="blank">
+                <img src="images/instagram_fixed.jpg" alt="instagram icon" width = "50"></a>
+            <a href="https://twitter.com " target="blank">
+                <img src="images/twitter.png" alt="twitter icon" width = "50"></a>
+            <a href="https://youtube.com " target="blank">
+                <img src="images/youtube.png" alt="youtube icon" width = "50"></a>
+        </div>
+    
+        <p>
+            &copy; 2021 | Mara Smith | Meridian, Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+            <br>
+            <span id="currentdate"></span>
+          </p>
+          <script src="js/index.js"></script>
+
+</footer>
+</html>
