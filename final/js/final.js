@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://github.com/Lavender-15/marasmith.github.io/blob/master/final/js/final.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -29,21 +29,27 @@ fetch(requestURL)
     let h2 = document.createElement('h2');
     h2.textContent = companies[i].name;
     titleDiv.appendChild(h2);
-    //card.appendChild(h2);
+    
+    // address
+    let address = document.createElement('p');
+    address.textContent = "Address:\r\n" + companies[i].address;
+    bodyDiv.appendChild(address);
 
-    // birthdays
-    let dateOfBirth = document.createElement('p');
-    dateOfBirth.textContent = "Phone Number:\r\n" + companies[i].phone;
+    // Phone
+    let phoneNumber = document.createElement('p');
+    phoneNumber.textContent = "Phone Number:\r\n" + companies[i].phone;
     bodyDiv.appendChild(phoneNumber);
 
-    //birthplace
+    //Link
 
-    let placeOfBirth = document.createElement('p');
-    placeOfBirth.textContent = 'Website:\r\n' + companies[i].link;
+    let companyLink = document.createElement('p');
+    companyLink.textContent = 'Website:\r\n' + companies[i].link;
     bodyDiv.appendChild(companyLink);
    
     document.querySelector('div.cards').appendChild(card);
    } 
+
+   
 
 });
 
