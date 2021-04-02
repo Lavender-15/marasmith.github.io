@@ -1,0 +1,119 @@
+{
+    "compaines": [
+      {
+        "name": "Micron Technology, Inc.",
+        "address": "8000 S. Federal Way",
+        "link": "https://www.micron.com/",
+        "phone":"(208) 368-4000",
+        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=5291"
+      },
+      {
+        "name": "Avalon Landscapes, Inc.",
+        "address": "1097 N. Rosario St., Ste. 102",
+        "link": "https://avalonlandscapes.net/",
+        "phone":"(208) 376-6599",
+        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=6478"
+      },
+      {
+        "name": "WCA/Women's and Children's Alliance",
+        "address": "720 W. Washington St.",
+        "link": "https://www.wcaboise.org/",
+        "phone":"(208) 343-3688",
+        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=6582"
+      },
+      {
+        "name": "Idaho Humane Society",
+        "address": "1300 S. Bird St.",
+        "link": "https://www.idahohumanesociety.org/",
+        "phone":"(208) 331-8556",
+        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=5103"
+      },
+      {
+        "name": "Idaho Pizza Company",
+        "address": "1677 S. Broadway Ave.",
+        "link": "https://www.idahopizzacompany.com/",
+        "phone":"(208) 343-1011",
+        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=5114"
+      },
+      {
+        "name": "The Art of Ward P. Hooper",
+        "address": "745 W. Idaho St.",
+        "link": "https://www.wardhooper.com/",
+        "phone":"(208) 287-8150",
+        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=7115"
+      },
+      {
+        "name": "Parks Royal Body Works",
+        "address": "905 W. Royal Blvd.",
+        "link": "https://parksroyal.com/",
+        "phone":"(208) 344-3582",
+        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=6342"
+      }
+    ]
+  }
+
+
+
+
+
+
+  const requestURL = 'https://github.com/Lavender-15/marasmith.github.io/blob/master/final/js/final.json';
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const companies =jsonObject['companies'];
+    
+    for (let i = 0; i < companies.length; i++ ) {
+    let card = document.createElement('section');
+    let titleDiv = document.createElement('Div');
+    titleDiv.classList.add('card-title');
+    let bodyDiv = document.createElement('Div');
+    titleDiv.classList.add('card-title');
+
+    //images
+    let image = document.createElement('img');
+    image.setAttribute("src", companies[i].imageurl);
+    image.setAttribute("loading","lazy");
+    image.setAttribute("alt", companies[i].name + "-" + (i +1));
+
+    card.appendChild(titleDiv);
+    card.appendChild(image);
+    card.appendChild(bodyDiv);
+
+    //names
+    let h2 = document.createElement('h2');
+    h2.textContent = companies[i].name;
+    titleDiv.appendChild(h2);
+    
+    // address
+    let address = document.createElement('p');
+    address.textContent = "Address:\r\n" + companies[i].phone;
+    bodyDiv.appendChild(address);
+
+    // Phone
+    let phoneNumber = document.createElement('p');
+    phoneNumber.textContent = "Phone Number:\r\n" + companies[i].phone;
+    bodyDiv.appendChild(phoneNumber);
+
+    //Link
+
+    let companyLink = document.createElement('p');
+    companyLink.textContent = 'Website:\r\n' + companies[i].link;
+    bodyDiv.appendChild(companyLink);
+   
+    document.querySelector('div.cards').appendChild(card);
+   } 
+
+   
+
+});
+
+
+const imgHover = document.getElementsByTagName('img')[0];
+const sect = document.getElementsByTagName('section')[0];
+
+  
