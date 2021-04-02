@@ -32,9 +32,9 @@ fetch(requestURL)
     //card.appendChild(h2);
 
     // birthdays
-    let address = document.createElement('p');
-    address.textContent = "Address:\r\n" + prophets[i].address;
-    bodyDiv.appendChild(address);
+    let dateOfBirth = document.createElement('p');
+    dateOfBirth.textContent = "Addressrt:\r\n" + prophets[i].birthdate;
+    bodyDiv.appendChild(dateOfBirth);
 
     //birthplace
 
