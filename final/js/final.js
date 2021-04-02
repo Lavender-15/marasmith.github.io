@@ -33,13 +33,13 @@ fetch(requestURL)
 
     // birthdays
     let dateOfBirth = document.createElement('p');
-    dateOfBirth.textContent = "Addressrt:\r\n" + prophets[i].birthdate;
+    dateOfBirth.textContent = "Address:\r\n" + prophets[i].birthdate;
     bodyDiv.appendChild(dateOfBirth);
 
     //birthplace
 
     let placeOfBirth = document.createElement('p');
-    placeOfBirth.textContent = 'Place of Birth:\r\n' + prophets[i].birthplace;
+    placeOfBirth.textContent = 'Phone Number:\r\n' + prophets[i].birthplace;
     bodyDiv.appendChild(placeOfBirth);
    
     document.querySelector('div.cards').appendChild(card);

@@ -2,12 +2,11 @@
     "prophets": [
       {
         "name": "Micron Technology, Inc.",
-        "lastname": "Smith",
         "birthdate": "8000 S. Federal Way",
-        "death": "27 June 1844",
+        "death": "https://www.micron.com/",
         "length": 14,
         "order": 1,
-        "birthplace": "Vermont",
+        "birthplace": "(208) 368-4000",
         "numofchildren": 11,
         "imageurl": "http://boisemetroidcoc.weblinkconnect.com/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=5291"
       },
