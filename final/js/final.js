@@ -1,4 +1,4 @@
-const requestURL = 'C:/Users/maral/BYUI/WDD 230/marasmith.github.io/final/js/final.json';
+const requestURL = 'https://lavender-15.github.io/marasmith.github.io/final.json';
 
 fetch(requestURL)
   .then(function (response) {
