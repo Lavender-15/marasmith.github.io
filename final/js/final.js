@@ -31,6 +31,10 @@ fetch(requestURL)
     titleDiv.appendChild(h2);
     //card.appendChild(h2);
 
+    let link = document.createElement('link');
+    link.textContent = "Website Link:\r\n" + prophets[i].link;
+    titleDiv.appendChild(link);
+
     // birthdays
     let dateOfBirth = document.createElement('p');
     dateOfBirth.textContent = "Address:\r\n" + prophets[i].birthdate;

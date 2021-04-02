@@ -3,11 +3,8 @@
       {
         "name": "Micron Technology, Inc.",
         "birthdate": "8000 S. Federal Way",
-        "death": "https://www.micron.com/",
-        "length": 14,
-        "order": 1,
+        "link": "https://www.micron.com/",
         "birthplace": "(208) 368-4000",
-        "numofchildren": 11,
         "imageurl": "http://boisemetroidcoc.weblinkconnect.com/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=5291"
       },
       {
