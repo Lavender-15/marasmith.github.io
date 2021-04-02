@@ -19,40 +19,16 @@
         /*----------- MAIN --------------*/
 
 
-
-        .fiveday {
-            display: block;
-        }
-
-        .fiveday h2 {
-            margin: 1rem 0 .5rem 0; /* values = top right bottom left */
-        }
-
-        section.fivedayforecast {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            margin-right: 8rem;
-        }
-
-        section.fivedayforecast div {
-            text-align: center;
-            border: 1px solid black;
-        }
-
-        section.fivedayforecast div h4 {
-            background-color: #4ECDC4;
-            margin: 0;
-            padding: 1rem 0;
-        }
-
-        section.fivedayforecast img {
-            margin-top: 1.5rem;
-            width: 35%;
-        }
+.forecast{
+    display:block;
+    
+}
 
        /*forecast*/
   .forecast div {
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
   }
     
 

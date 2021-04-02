@@ -1,64 +1,72 @@
-const d = new Date();
+  const d = new Date();
 
-const todayDayNumber = d.getDay();
+  const todayDayNumber = d.getDay();
+  
+  const weekday = new Array(7);
+  weekday[0] = "Sunday";
+  weekday[1] = "Monday";
+  weekday[2] = "Tuesday";
+  weekday[3] = "Wednesday";
+  weekday[4] = "Thursday";
+  weekday[5] = "Friday";
+  weekday[6] = "Saturday";
+  
+  const apifURL = "https://api.openweathermap.org/data/2.5/forecast?id=5586437&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
+  fetch(apifURL)
+    .then((response) => response.json())
+    .then((weatherinfo) => {
+      //Once it comes back, display it to the console.
+      console.log(weatherinfo);
+  
+       //let mylist = weatherInfo.list;
+       let forecastDayNumber = todayDayNumber;
+       console.log(forecastDayNumber);
+  
+       let mylist = weatherinfo.list;
+       console.log(mylist.length);
+  
+  for(i = 0; i<30;i++){
+          var time = mylist [i].dt_txt;
 
-const weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
+          if (time.includes("18:00:00")) {
+            console.log(
+              "Found an entry with 18:00:00 in the time. It was report " +
+                i +
+                " from the mylist of 40"
+            );
+  
+          forecastDayNumber += 1;
+          if (forecastDayNumber === 7) {
+            forecastDayNumber = 0;
+          }
+  
+          let theDayName = document.createElement("span");
+              theDayName.textContent = weekday[forecastDayNumber];
+              console.log(">"+weekday[forecastDayNumber])
+  
+              var cakeBatter =3;
+              let theTemp = document.createElement("p");
+              theTemp.textContent = weatherinfo.list[i].main.temp + "\xB0";
+  
+              let iconcode=
+              weatherinfo.list[i].weather[0].icon;
+              let iconPath = "http://openweathermap.org/img/w/" + iconcode + ".png";
+              let theIcon = document.createElement("img")
+              theIcon.src=iconPath;
+  
+              let theDay = document.createElement("div");
+  
+              theDay.append(theDayName);
+              theDay.append(theIcon);
+              theDay.append(theTemp);
+      
+              document.getElementById("forecastDays").append(theDay);
+  
 
-const apifURL =
-  "//api.openweathermap.org/data/2.5/forecast?id=5586437&appid=ed322eeeaba3fbf6a615b4175fa51fdf&units=imperial";
-fetch(apifURL)
-  .then((response) => response.json())
-  .then((weatherInfo) => {
-    console.log(weatherInfo);
-
-    let mylist = weatherInfo.list;
-    let forecastDayNumber = todayDayNumber;
-
-    for (i = 0; i < mylist.length; i++) {
-      let time = mylist[i].dt_txt;
-      if (time.includes("18:00:00")) {
-        console.log(
-          "Found an entry with 18:00:00 in the time. It was report " +
-            i +
-            " from the mylist of 40"
-        );
-
-        forecastDayNumber += 1;
-        if (forecastDayNumber === 7) {
-          forecastDayNumber = 0;
         }
-
-        let theDayName = document.createElement("h4");
-        theDayName.textContent = weekday[forecastDayNumber];
-
-        let theTemp = document.createElement("span");
-        theTemp.innerHTML = `${weatherInfo.list[i].main.temp}&#176;F`;
-
-        let iconcode = weatherInfo.list[i].weather[0].icon;
-        let iconPath = "//openweathermap.org/img/w/" + iconcode + ".png";
-        let theIcon = document.createElement("img");
-        theIcon.src = iconPath;
-        theIcon.alt = `Icon image of ${weatherInfo.list[i].weather[0].description}`;
-
-        let theDay = document.createElement("div");
-
-        theDay.append(theDayName);
-        theDay.append(theIcon);
-        theDay.append(theTemp);
-
-        document.getElementById("forecastDays").append(theDay);
-
-    
       }
-    }
-  });
+    });
+
   const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5586437&appid=cd74f180fdef1030c4c735b5fcd2b152&units=imperial";
   fetch(apiURL)
    .then((response) => response.json())

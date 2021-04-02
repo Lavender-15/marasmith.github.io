@@ -160,12 +160,12 @@ background-color: #CCD2EC;
 }
 
 
-/* 5 Days Forecast */
+/* 3 Days Forecast */
 .forecast__grid div {
 margin: 0;
 }
 
-.forecast__grid {
+.forecast {
 grid-gap: calc(1rem + 3vw);
 }
 
@@ -173,6 +173,19 @@ grid-gap: calc(1rem + 3vw);
 font-size: 1.25rem;
 }
 
+.forecastTitle{
+    margin-left: 70px;
+    font-size: 1.5rem;
+}
+
+.forcast{
+   float: left;
+}
+
+.threedayforcast {
+    margin-left: 50px;
+
+}
 
 /* Contact */
 .contact__column {
