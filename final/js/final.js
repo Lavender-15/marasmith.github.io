@@ -6,9 +6,9 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets =jsonObject['prophets'];
+    const compaines =jsonObject['compaines'];
     
-    for (let i = 0; i < prophets.length; i++ ) {
+    for (let i = 0; i < compaines.length; i++ ) {
     let card = document.createElement('section');
     let titleDiv = document.createElement('Div');
     titleDiv.classList.add('card-title');
@@ -17,9 +17,9 @@ fetch(requestURL)
 
     //images
     let image = document.createElement('img');
-    image.setAttribute("src", prophets[i].imageurl);
+    image.setAttribute("src", compaines[i].imageurl);
     image.setAttribute("loading","lazy");
-    image.setAttribute("alt", prophets[i].name + ' ' + prophets[i].lastname + "-" + (i +1));
+    image.setAttribute("alt", compaines[i].name + ' ' + compaines[i].lastname + "-" + (i +1));
 
     card.appendChild(titleDiv);
     card.appendChild(image);
@@ -27,24 +27,24 @@ fetch(requestURL)
 
     //names
     let h2 = document.createElement('h2');
-    h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+    h2.textContent = compaines[i].name + ' ' + compaines[i].lastname;
     titleDiv.appendChild(h2);
     //card.appendChild(h2);
 
-    let link = document.createElement('link');
-    link.textContent = "Website Link:\r\n" + prophets[i].link;
-    titleDiv.appendChild(link);
+    let sitelink = document.createElement('p');
+    sitelink.textContent = "Website Link:\r\n" + compaines[i].link;
+    titleDiv.appendChild(sitelink);
 
     // birthdays
-    let dateOfBirth = document.createElement('p');
-    dateOfBirth.textContent = "Address:\r\n" + prophets[i].birthdate;
-    bodyDiv.appendChild(dateOfBirth);
+    let placeAddress = document.createElement('p');
+    placeAddress.textContent = "Address:\r\n" + compaines[i].address;
+    bodyDiv.appendChild(placeAddress);
 
     //birthplace
 
-    let placeOfBirth = document.createElement('p');
-    placeOfBirth.textContent = 'Phone Number:\r\n' + prophets[i].birthplace;
-    bodyDiv.appendChild(placeOfBirth);
+    let phoneNumber = document.createElement('p');
+    phoneNumber.textContent = 'Phone Number:\r\n' + compaines[i].phone;
+    bodyDiv.appendChild(phoneNumber);
    
     document.querySelector('div.cards').appendChild(card);
    } 

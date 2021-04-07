@@ -46,7 +46,6 @@
 
             <!-- 1st Fieldset -->
             <fieldset>
-                <legend>Contact Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" placeholder="John" pattern="[A-Za-z ]{5,}" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" placeholder="Doe" pattern="[A-Za-z ]{5,}" required></label>
                 <label class="top">Title <input type="text" name="title"></label>
@@ -54,10 +53,10 @@
                 <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
                 <label class="top">Business Name* <input type="text" name="title" required></label>
                 <label class="top">Business Address <input type="url" name="baddress"></label>
-                <label class="textbottom"> Business Description
+                <label class="top"> Business Description
                     <textarea name="businesdescription"
                               rows="10" cols="50"></textarea></label>
-               <label>
+               <label class="top">
                   <div id="membershiplevel"> Membership Level <input name="level" list="membership"> 
                     <datalist id="membership">
                         <option value="">Please Select &#9662;

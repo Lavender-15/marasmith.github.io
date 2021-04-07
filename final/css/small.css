@@ -177,6 +177,20 @@ html {
         background: white;
     }
 
+
+
+
+
+    .cards img{
+        max-width: 100px;
+    }
+
+
+
+
+
+
+
      /* ---------- Storm Center ---------- */
      .storm-page h4 {
         padding-left: 1rem;
@@ -211,9 +225,9 @@ html {
         border-radius: var(--b-radius);
     }
 
-    .storm-page .top {
+    .top {
         display: block;
-        padding-top: 1rem;
+        padding: .8rem;
     }
 
     .top input, .top select {
@@ -264,32 +278,25 @@ html {
         display:flex;
         flex-direction: column;
       }
-      .storm-page #formfield .dangerlevel {
-        flex-direction: row;
-      }
-        
-      .storm-page #formfield .dangerlevel {
-        position: relative;
-        top: 10px;
-        left: 15px;
-      }
-      #severitydisplay input{color: #0D153B;
+
 
       }
 
     .submitBtn {
         border: none;
-        background-color: #0D153B;
-        color: white;
+        background-color: #edafb8;
+        color: #333333;
         font-size: 1.25rem;
         font-weight: 700;
         padding: .75rem 1.5rem;
         width: 96%;
         max-width:22rem; 
+        margin-left: 25px;
+        border-radius: 4px;
     }
 
     .submitBtn:hover {
-        background-color: #CCD2EC;
+        background-color: #e8ddb5;
         color: black;
     }
 
