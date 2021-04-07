@@ -181,7 +181,7 @@ html {
 
 
 
-    .cards img{
+cards img{
         max-width: 100px;
     }
 
@@ -280,7 +280,6 @@ html {
       }
 
 
-      }
 
     .submitBtn {
         border: none;
