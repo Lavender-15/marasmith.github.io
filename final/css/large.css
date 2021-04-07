@@ -106,7 +106,7 @@ margin: 0;
 }
 
 .forecast {
-grid-gap:-10px;
+grid-gap:10px;
 }
 
 .event p {
@@ -130,7 +130,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-#card1{
+/* #card1{
     grid-template-columns: 1/4
 }
 #card2{
@@ -138,7 +138,7 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 #card3{
     grid-template-columns: 4/4
-}
+} */
 
 .threedayforcast{
 margin-left: 200px;
