@@ -13,7 +13,7 @@
         /*----------- HEADER --------------*/
         header img {width: 125px;}
         header h1 {font-size: 4rem;
-        margin-bottom: -30px;}
+        /* margin-bottom: -30px;} */}
         header h3 {font-size: 1.5rem;}
 
         /*----------- MAIN --------------*/
@@ -103,7 +103,7 @@
 
   
   
-#cards div {
+/* #cards div {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -113,6 +113,6 @@
 }
 #cards div:nth-child(2) section {
     grid-column: 1;
-}
+} */
 
     } /* end of media querry*/
