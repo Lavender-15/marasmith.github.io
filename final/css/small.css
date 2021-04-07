@@ -100,22 +100,41 @@ html {
 
 /* Main */
 
-join{
-    background-color:#95b8d1;
+h2{
+    padding: 10px;
+    text-align: center;
+    color:#95b8d1;
+    background-color:#333333;
+    margin-top: 20px;
 }
 
-
+.goals p{ 
+    background-color:#edafb8;
+    border: 3px solid #95b8d1;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
 
 .card{
     margin-bottom: 10px;
     width: 300px;
     display: grid;
+    margin-left: 15%;
+    margin-right: auto;
     
 }
 
 .card img{
     border: #95b8d1 4px solid;
     margin-top: 10px;
+}
+
+.card p{
+    border: #95b8d1 4px solid;
+    padding: 10px;
+    margin-top: -5px;
 }
 
 .card h2{ 
@@ -125,6 +144,15 @@ join{
     background-color:#95b8d1;
     padding: 3px;
 
+}
+
+.events{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 3px solid #edafb8;
+    background-color: #e8ddb5;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .list{
@@ -174,11 +202,28 @@ join{
     font-family: 'PT Sans Narrow', sans-serif;
     border: 3px solid #edafb8;
     background: #e8ddb5;
-    padding-left:50px;
-    padding-right:50px;
-    font-size: 1rem;
+    padding:35px;
+    font-size: 1.3rem;
     margin-left: 100px;
 
+}
+.banner{
+    max-width:400px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.welcome{
+    padding: 20px;
+
+}
+.localevents{
+    margin-top: 30px;
+    
+}
+.localevents h2{
+    text-align: center;
 }
 
 /*3-day forecast*/
@@ -225,6 +270,7 @@ join{
     font-size: 1rem;
     padding-left: -100px;
     padding-right: -100px;
+    margin-bottom:20px;
     
 }
 .threedayforcast h1{
