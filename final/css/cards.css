@@ -54,12 +54,6 @@
 }
 
 .cards p {
-    /* grid-column: 1/1;
-    grid-row: 2/3;
-    padding: .5rem 0 .5rem 0;
-    grid-row: 2/3;
-    padding-top: 50px;
-    margin-right: 80px; */
     padding:0px;
     margin:0px;
     text-align: center;
