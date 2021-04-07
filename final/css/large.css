@@ -62,7 +62,7 @@ padding: 1rem;
 
 .weathersummary {
 left: 15px;
-padding: 0 1%;
+padding: 10px;
 font-size: 1rem;
 }
 
@@ -123,6 +123,24 @@ padding-bottom: 0px;
 .forecast div {
 grid-template-columns: 1fr 1fr 1fr;
 }
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+#card1{
+    grid-template-columns: 1/4
+}
+#card2{
+    grid-template-columns: 3/4
+}
+#card3{
+    grid-template-columns: 4/4
+}
+
 .threedayforcast{
 margin-left: 200px;
 margin-top: 0px;

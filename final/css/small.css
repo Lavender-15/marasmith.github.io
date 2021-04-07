@@ -104,9 +104,27 @@ join{
     background-color:#95b8d1;
 }
 
+
+
+.card{
+    margin-bottom: 10px;
+    width: 300px;
+    display: grid;
+    
+}
+
+.card img{
+    border: #95b8d1 4px solid;
+    margin-top: 10px;
+}
+
+.card h2{ 
+    margin-top: 10px;
+}
 .busi{ 
     background-color:#95b8d1;
     padding: 3px;
+
 }
 
 .list{
