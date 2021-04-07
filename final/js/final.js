@@ -35,16 +35,17 @@ fetch(requestURL)
     sitelink.textContent = "Website Link:\r\n" + prophets[i].link;
     titleDiv.appendChild(sitelink);
 
+
     // birthdays
-    let placeAddress = document.createElement('p');
-    placeAddress.textContent = "Address:\r\n" + prophets[i].address;
-    bodyDiv.appendChild(placeAddress);
+    let dateOfBirth = document.createElement('p');
+    dateOfBirth.textContent = "Address:\r\n" + prophets[i].birthdate;
+    bodyDiv.appendChild(dateOfBirth);
 
     //birthplace
 
-    let phoneNumber = document.createElement('p');
-    phoneNumber.textContent = 'Phone Number:\r\n' + prophets[i].phone;
-    bodyDiv.appendChild(phoneNumber);
+    let placeOfBirth = document.createElement('p');
+    placeOfBirth.textContent = 'Phone Number:\r\n' + prophets[i].birthplace;
+    bodyDiv.appendChild(placeOfBirth);
    
     document.querySelector('div.cards').appendChild(card);
    } 

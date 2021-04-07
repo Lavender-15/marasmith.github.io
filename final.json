@@ -14,13 +14,70 @@
         "birthdate": "1097 N. Rosario St., Ste. 102",
         "link": "https://avalonlandscapes.net/",
         "birthplace": "(208) 376-6599"
+        
+      },
+      {
+        "name": "Idaho Humane Society",
+        "imageurl": "http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=5103",
+        "birthdate": "1300 S. Bird St.",
+        "link": "https://www.idahohumanesociety.org/",
+        "birthplace": "(208) 331-8556"
+        
       },
       {
         "name": "WCA/Women's and Children's Alliance",
+        "imageurl": "http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=6582",
         "birthdate": "720 W. Washington St.",
         "link": "https://www.wcaboise.org/",
-        "phone":"(208) 343-3688",
-        "imgurl":"http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=6582"
+        "birthplace": "(208) 343-3688"
+        
+      },
+      {
+        "name": "Idaho Pizza Company",
+        "imageurl": "http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=5114",
+        "birthdate": "1677 S. Broadway Ave.",
+        "link": "https://www.idahopizzacompany.com/",
+        "birthplace": "(208) 343-1011"
+        
+      },
+      {
+        "name": "The Art of Ward P. Hooper",
+        "imageurl": "http://boisemetroidcoc.weblinkconnect.com/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=7115",
+        "birthdate": "745 W. Idaho St.",
+        "link": "https://www.wardhooper.com/",
+        "birthplace": "(208) 287-8150"
+        
+      },
+      {
+        "name": "Parks Royal Body Works",
+        "imageurl": "http://boisemetroidcoc.weblinkconnect.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=6342",
+        "birthdate": "905 W. Royal Blvd.",
+        "link": "https://parksroyal.com/",
+        "birthplace": "(208) 344-3582"
+        
+      },
+      
+      {
+        "name": "Brigham",
+        "lastname": "Young",
+        "birthdate": "01 June 1801",
+        "death": "29 August 1877",
+        "length": 30,
+        "order": 2,
+        "birthplace": "Vermont",
+        "numofchildren": 56,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+      },
+      {
+        "name": "John",
+        "lastname": "Taylor",
+        "birthdate": "01 November 1808",
+        "death": "25 July 1887",
+        "length": 6,
+        "order": 3,
+        "birthplace": "England",
+        "numofchildren": 34,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
       },
       {
         "name": "Wilford",
