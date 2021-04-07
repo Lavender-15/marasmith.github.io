@@ -36,6 +36,16 @@ float: left;
 
 /*main*/
 
+.key{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 3px solid #edafb8;
+    background-color: #e8ddb5;
+    float:right;
+    margin-top: -1000px;
+    padding: 10px;
+
+}
+
 
 main, footer {
 max-width: 64rem;
@@ -90,33 +100,6 @@ padding: 0.25rem 0;
 
 /*Town Stuff*/
 
-/* #cards img{
-width:300px;
-box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
-}
-
-#cards {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 10px;
-margin: 20px;
-
-
-
-justify-content: center;
-text-align: center;
-
-
-}
-#cards div {
-color: #0D153B;
-display: block;
-border: #0D153B solid 2px;
-background-color: #CCD2EC;
-
-
-} */
-
 
 /* 3 Days Forecast */
 .forecast__grid div {
@@ -148,6 +131,10 @@ margin-top: 0px;
 /* Contact */
 .contact__column {
 padding: 0;
+}
+.contact{
+    margin-left: 245px;
+    margin-right: 245px;
 }
 
 

@@ -217,9 +217,7 @@ section .forcast{ display: none;}
     img {max-width: 100%;}
     /* footer styles */
 
-    footer {background-color: #454972; color: #CCD2EC;}
-    footer a {color:#CCD2EC;}
-    footer p {text-align: center;}
+
 
 .center {
     position: relative;

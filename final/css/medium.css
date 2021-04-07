@@ -31,7 +31,10 @@
     
   }
     
-
+  .contact{
+    margin-left: 145px;
+    margin-right: 145px;
+}
 
 
 
@@ -97,22 +100,5 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-
-
-
-
-  
-  
-/* #cards div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-#cards div:nth-child(2) figure {
-    grid-column: 2;
-    grid-row: 1;
-}
-#cards div:nth-child(2) section {
-    grid-column: 1;
-} */
 
     } /* end of media querry*/

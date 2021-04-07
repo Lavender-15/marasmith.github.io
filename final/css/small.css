@@ -1,7 +1,7 @@
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background-color: #95b8d1;
+    ;
 }
 
 
@@ -31,9 +31,10 @@ html {
     /* Header */
     header {
 
-        background-color: #95b8d1;
+        background-color: #333333;
         text-align: left;
         padding: 1%;
+        color: #95b8d1
     }
 
 
@@ -98,6 +99,55 @@ html {
 
 
 /* Main */
+
+join{
+    background-color:#95b8d1;
+}
+
+.busi{ 
+    background-color:#95b8d1;
+    padding: 3px;
+}
+
+.list{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 3px solid #edafb8;
+    background-color: #e8ddb5;
+    padding: 10px;
+    margin:10px;
+    float:right;
+    margin-bottom: 20px;
+    margin-top: -10px;
+
+}
+
+.contact{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 3px solid #edafb8;
+    background-color: #e8ddb5;
+    padding: 10px;
+    margin:10px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+.contactcon{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 3px solid #edafb8;
+    background-color: #e8ddb5;
+    padding: 10px;
+    margin:10px;
+
+}
+
+.key{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 3px solid #edafb8;
+    background-color: #e8ddb5;
+    padding: 10px;
+    margin:10px;
+}
 
 
 .weathersummary {
@@ -175,14 +225,6 @@ html {
         box-shadow: 5px 5px 11px 1px #000000;
         align-items:center;
         background: white;
-    }
-
-
-
-
-
-cards img{
-        max-width: 100px;
     }
 
 
@@ -306,6 +348,18 @@ cards img{
     .top input:required:valid {
         border-left: green solid 6px;
     }
+    .top {
+        background-color: #95b8d1;
+    }
+.contactsub{
+    margin-top: 20px;
+}
+
+    footer {background-color: #333333; color: #e8ddb5;
+    width: 100%;}
+    footer a {color:#e8ddb5;}
+    footer p {text-align: center;}
+
 
     .clearfix:after {
         content: "";
