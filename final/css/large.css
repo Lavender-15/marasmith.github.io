@@ -37,17 +37,6 @@ float: left;
 /*main*/
 
 
-
-/*Forecast*/
-
-.forecastTitle {
-padding-left: 0;
-padding-bottom: 15px;}
-
-.forecast div {
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
-
-
 main, footer {
 max-width: 64rem;
 margin: 0 auto;
@@ -74,37 +63,6 @@ section.article img {
 border: 2px solid #000;
 }
 
-
-/*gallery*/
-.gallery {
-grid-template-columns: 1fr 1fr 1fr;
-padding: 10px 0px 0px 0px;
-gap: 30px
-}
-.gallery figcaption {
-text-align: center;
-display: block;
-background-color: #0D153B;
-color: white;
-padding : 3px;
-border: 1px solid black; 
-}
-.gallery figure {
-box-shadow: 0 0 10px black;
-
-}
-.gallery figure:hover{
-box-shadow: 0 0 20px black;
-}
-.gallery img {
-display: block;
-}
-.gallery img:hover {
-box-shadow: none;
-}
-.gallery-social {
-padding-top: 110px;
-}
 
 
 /* ---------- Storm Center ---------- */
@@ -166,7 +124,7 @@ margin: 0;
 }
 
 .forecast {
-grid-gap: calc(1rem + 3vw);
+grid-gap:-10px;
 }
 
 .event p {
@@ -174,17 +132,17 @@ font-size: 1.25rem;
 }
 
 .forecastTitle{
-    margin-left: 70px;
     font-size: 1.5rem;
+    padding-left: 0;
+padding-bottom: 0px;
 }
 
-.forcast{
-   float: left;
+.forecast div {
+grid-template-columns: 1fr 1fr 1fr;
 }
-
-.threedayforcast {
-    margin-left: 50px;
-
+.threedayforcast{
+margin-left: 200px;
+margin-top: 0px;
 }
 
 /* Contact */
