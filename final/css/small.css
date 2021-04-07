@@ -226,6 +226,13 @@ h2{
     text-align: center;
 }
 
+.history img{
+max-width: 1000px;
+}
+.history p{
+    padding: 15px;
+}
+
 /*3-day forecast*/
   .forecast div {
     display: grid;
