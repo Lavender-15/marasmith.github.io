@@ -100,6 +100,13 @@ html {
 
 /* Main */
 
+.busi{ 
+    background-color:#95b8d1;
+    padding: 3px;
+    color: #333333;
+
+}
+
 .styleh2 h2{
     padding: 10px;
     text-align: center;
@@ -140,12 +147,7 @@ html {
 .card h2{ 
     margin-top: 10px;
 }
-.busi{ 
-    background-color:#95b8d1;
-    padding: 3px;
-    color: #333333;
 
-}
 
 .events{
     font-family: 'PT Sans Narrow', sans-serif;
