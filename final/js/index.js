@@ -25,7 +25,7 @@
        let mylist = weatherinfo.list;
        console.log(mylist.length);
   
-  for(i = 0; i<30;i++){
+  for(i = 0; i<25;i++){
           var time = mylist [i].dt_txt;
 
           if (time.includes("18:00:00")) {
