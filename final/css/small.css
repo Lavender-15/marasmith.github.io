@@ -100,7 +100,7 @@ html {
 
 /* Main */
 
-h2{
+.styleh2 h2{
     padding: 10px;
     text-align: center;
     color:#95b8d1;
