@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+h1, h2{
+    font-family: 'Lora', serif;
+}
+body{
+    font-family: "Helvetica", "Arial", sans-serif
+}
+
+/* unvisited link */
+header a:link {
+    color: #FAEBD7 ;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  header a:visited {
+    color: #FAEBD7;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  header a:hover {
+    color: #DEB887;
+  }
+  
+  /* selected link */
+  header a:active {
+    color: white;
+    text-decoration: underline;
+  }
+  header{
+      background-color:  #6495ED;
+      padding: 20px;
+  }
+  main{
+      background-color: #FAEBD7;
+  }
+  header p{
+    color: #FAEBD7;
+  }
+
+
+/* unvisited link */
+ a:link {
+    color: #6495ED ;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #6495ED;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #DEB887;
+    
+  }
+  
+
+  /* unvisited link */
+  article a:link {
+    color: black ;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  article a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  article a:hover {
+    color: #6495ED ;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  article a:active {
+    color: #DEB887;
+    
+  }
