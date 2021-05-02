@@ -31,12 +31,17 @@ header a:link {
   header{
       background-color:  #6495ED;
       padding: 20px;
+      margin: -10px;
+      max-width: 320px;
   }
-  main{
+  html{
       background-color: #FAEBD7;
   }
   header p{
     color: #FAEBD7;
+  }
+  header{
+      text-align: right;
   }
 
 
@@ -65,25 +70,69 @@ header a:link {
   
 
   /* unvisited link */
-  article a:link {
+  article h2 a:link {
     color: black ;
     text-decoration: none;
   }
   
   /* visited link */
-  article a:visited {
+  article h2 a:visited {
     color: black;
     text-decoration: none;
   }
   
   /* mouse over link */
-  article a:hover {
+  article h2 a:hover {
     color: #6495ED ;
     text-decoration: underline;
   }
   
   /* selected link */
-  article a:active {
+  article h2 a:active {
     color: #DEB887;
     
   }
+
+  article{
+      background-color:white;
+      max-width: 270px;
+      margin:20px;
+      box-shadow: 3px 3px rgb(204, 203, 203);
+      padding: 20px;
+      margin-left: 10px;
+  }
+  .post-date{
+      color: grey;
+      margin-bottom: -10px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  img{
+      max-width: 170px;
+  }
+
+  @media only screen and (min-width: 72em){
+
+
+    header{
+        display: block;
+        width: 180px;
+        margin: -20px;
+        height: 700px;
+        text-align: right;
+        text-decoration: none;
+        position: fixed;
+    }
+
+article{
+    margin-left: 300px;
+    padding-top: 30px;
+    max-width: 400px;
+   }
+
+   img{
+       max-width: 100%
+   }
+
+}
