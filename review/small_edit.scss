@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+html{
+    background-color: #FAEBD7;
+}
+
+
+//mixins
+@mixin header {
+    background-color: #6495ED;
+    padding: 20px;
+    margin: -10px;
+    max-width: 320px;
+  }
+
+
+ @mixin article{ background-color:white;
+  max-width: 270px;
+  margin:20px;
+  box-shadow: 3px 3px rgb(204, 203, 203);
+  padding: 20px;
+  margin-left: 10px;}
+
+//header
+
+/* unvisited link */
+header {
+    a:link {
+    color: #FAEBD7 ;
+    text-decoration: none; }
+    a:visited {
+    color: #FAEBD7;
+    text-decoration: none;}
+    a:hover {
+    color: #DEB887;}
+     a:active {
+    color: white;
+    text-decoration: underline;
+  }}
+  
+  header{
+      text-align: right;
+      @include header;
+      p{
+        color: #FAEBD7;
+      }
+  }
+
+//body
+h1, h2{
+    font-family: 'Lora', serif;
+}
+body{
+    font-family: "Helvetica", "Arial", sans-serif
+}
+ 
+/* unvisited link */
+ a:link {
+    color: #6495ED ;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #6495ED;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #DEB887;
+    
+  }
+
+  .post-date{
+    color: grey;
+    margin-bottom: -10px;
+}
+ul{
+  list-style-type: none;
+}
+
+img{
+    max-width: 170px;
+}
+
+
+
+  
+//article
+
+  /* unvisited link */
+  article h2 {
+    a:link {
+    color: black ;
+    text-decoration: none;}
+    a:visited {
+    color: black;
+    text-decoration: none;}
+    a:hover {
+    color: #6495ED ;
+    text-decoration: underline }
+    a:active {
+    color: #DEB887;}}
+
+  article{
+@include article;
+  }
+
+  $break-large: 72em;
+
+  @media (min-width: $break-large) {
+    
+    header{
+        display: block;
+        width: 180px;
+        margin: -20px;
+        height: 700px;
+        text-align: right;
+        text-decoration: none;
+        position: fixed;
+    }
+
+article{
+    margin-left: 300px;
+    padding-top: 30px;
+    max-width: 400px;
+   }
+
+   img{
+       max-width: 100%
+   }
+     
+ }
