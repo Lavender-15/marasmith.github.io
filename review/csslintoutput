@@ -1,0 +1,29 @@
+
+large.css
+  1:1   ×  Unknown rule no-invalid-position-at-import-rule  no-invalid-position-at-import-rule   
+  1:1   ×  Unknown rule no-irregular-whitespace             no-irregular-whitespace              
+  1:40  ×  Expected single space before "{"                 block-opening-brace-space-before     
+  3:1   ×  Expected no more than 1 empty line               max-empty-lines                      
+  4:5   ×  Unexpected empty line before rule                rule-empty-line-before               
+  4:5   ×  Expected indentation of 2 spaces                 indentation                          
+  4:10  ×  Expected single space before "{"                 block-opening-brace-space-before     
+  5:9   ×  Unexpected unknown property "box-align"          property-no-unknown                  
+  5:9   ×  Expected indentation of 4 spaces                 indentation                          
+  6:9   ×  Expected indentation of 4 spaces                 indentation                          
+  7:9   ×  Expected indentation of 4 spaces                 indentation                          
+  8:9   ×  Expected indentation of 4 spaces                 indentation                          
+  9:9   ×  Expected indentation of 4 spaces                 indentation                          
+ 10:9   ×  Expected indentation of 4 spaces                 indentation                          
+ 11:9   ×  Expected indentation of 4 spaces                 indentation                          
+ 12:9   ×  Expected indentation of 4 spaces                 indentation                          
+ 13:5   ×  Expected indentation of 2 spaces                 indentation                          
+ 15:1   ×  Expected indentation of 2 spaces                 indentation                          
+ 15:7   ×  Expected single space before "{"                 block-opening-brace-space-before     
+ 19:4   ×  Expected indentation of 2 spaces                 indentation                          
+ 21:4   ×  Expected indentation of 2 spaces                 indentation                          
+ 21:6   ×  Expected single space before "{"                 block-opening-brace-space-before     
+ 22:8   ×  Expected indentation of 4 spaces                 indentation                          
+ 22:22  ×  Expected a trailing semicolon                    declaration-block-trailing-semicolon 
+ 23:4   ×  Expected indentation of 2 spaces                 indentation                          
+ 25:1   ×  Unexpected empty line before closing brace       block-closing-brace-empty-line-before
+
