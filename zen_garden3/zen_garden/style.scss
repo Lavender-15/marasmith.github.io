@@ -1,0 +1,92 @@
+/*Google fonts: Frank Ruhle Libre (heading) and Lato (body)*/
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+//import the variables for color, sizes, and font-family
+@import "variables.scss";
+
+/*------- basic styles -------*/
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+
+p {
+    font-family: $body-font;
+}
+h1, h2, h3 {
+    font-family: $heading-font;
+    color: $heading-color;
+}
+
+//header 
+header {
+    padding: 1em;
+    background: $header-color;
+    height:7em;
+    overflow: hidden;
+    
+
+    & h1, & h2 {
+        color: $body-bg-color;
+        margin:0;
+    }
+    & h2 {
+        font-size: 1em;
+        
+    }
+    & h1 {
+        font-size: 2em;
+        
+    }
+}
+
+.sidebar {
+    background: $nav-color;
+    
+    & li {
+        list-style: none;
+        font-size: 1.1em;
+    }
+
+    & a {
+        color: $footer-font-color;
+        text-decoration: none;
+    }
+
+    &::after {
+        content: '';
+        background-color: $nav-color; 
+    }
+}
+.select {
+    color:$body-bg-color;
+    padding: 1em;
+    font-size:1.5em;
+}
+
+
+
+
+//import the grid layout partial
+@import "layout.scss";
+
+footer {
+    background: $footer-color;
+    padding: 1em;
+    text-align: center;
+        
+
+    & a {
+        color: $footer-font-color;
+        text-decoration: none;
+        margin: 1em;
+    }
+    & a::before {
+        content: '';
+        background: $header-color;
+        border-radius: 50%;
+        position: relative;
+    }
+
+}

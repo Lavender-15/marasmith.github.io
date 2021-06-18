@@ -1,0 +1,153 @@
+/*Google fonts: Frank Ruhle Libre (heading) and Lato (body)*/
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+/*------- basic styles -------*/
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #ce7b90;
+}
+
+header {
+  padding: 1em;
+  background: #ac4d6f;
+  height: 15em;
+  background-image: url(img/cherry-blossom-5439750_1280.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+header h1, header h2 {
+  color: #f3f6fb;
+  margin: 0;
+}
+header h2 {
+  font-size: 1.5em;
+}
+header h1 {
+  font-size: 3em;
+}
+
+.sidebar {
+  background: #ce7b90;
+  padding-right: 1em;
+}
+.sidebar li {
+  list-style: none;
+  font-size: 1.1em;
+}
+.sidebar a {
+  color: #f3f6fb;
+  text-decoration: none;
+}
+.sidebar::after {
+  content: "";
+  background-color: #ce7b90;
+}
+.sidebar h3 {
+  color: #f3f6fb;
+}
+
+/*padding and margins of page content*/
+body p {
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+body h2 {
+  margin-left: 1em;
+}
+
+body h3 {
+  margin-left: 1em;
+}
+
+ul {
+  padding-bottom: 1em;
+}
+
+/*------- GRID LAYOUTS -------*/
+* {
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  display: grid;
+}
+
+/*------- MOBILE LAYOUT -------*/
+@media only screen and (max-width: 50em) {
+  .page-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    background-position: bottom;
+  }
+  header h1 {
+    font-size: 2em;
+  }
+}
+/*------- WIDE SCREEN LAYOUT -------*/
+@media only screen and (min-width: 50em) {
+  .page-wrapper {
+    grid-template-columns: 1fr 25%;
+  }
+
+  .page-wrapper * {
+    grid-column: 1;
+  }
+
+  .page-wrapper .sidebar {
+    grid-column: 2;
+    grid-row: 1/3;
+  }
+
+  .page-wrapper .sidebar .wrapper {
+    margin-top: 7em;
+  }
+
+  header {
+    background-position: right;
+  }
+
+  .main-supporting {
+    display: grid;
+    grid-template-columns: 1fr 20%;
+  }
+
+  footer {
+    grid-column: 1/-1;
+  }
+}
+/*end wide screen query*/
+/*------- Footer styles -------*/
+footer {
+  background: #303531;
+  padding: 3em;
+  text-align: center;
+}
+footer a {
+  color: #f3f6fb;
+  text-decoration: none;
+  margin: 1em;
+}
+footer a::before {
+  content: "";
+  background: #ac4d6f;
+  border-radius: 50%;
+  position: relative;
+}
+
+/*# sourceMappingURL=main.css.map */

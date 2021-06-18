@@ -1,0 +1,102 @@
+/* design and SCSS/CSS authors: Mara Smith, Gilda Gallegos, Alex Courter */
+
+/*Google fonts: Frank Ruhle Libre (heading) and Lato (body)*/
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+//import the variables for color, sizes, and font-family
+@import "partials/variables.scss";
+
+/*------- basic styles -------*/
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body {margin: 0;}
+
+p {font-family: $body-font;}
+
+h1, h2, h3 {
+    font-family: $heading-font;
+    color: $heading-color;
+}
+
+//header 
+header {
+    padding: 1em;
+    background: $header-color;
+    height: 15em;
+    background-image: url(img/cherry-blossom-5439750_1280.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    & h1, & h2 {
+        color: $body-bg-color;
+        margin: 0;
+    }
+    & h2 {
+        font-size: 1.5em;
+    }
+    & h1 {
+        font-size: 3em;
+    }
+}
+
+.sidebar {
+    background: $nav-color;
+    padding-right: 1em;
+    
+    & li {
+        list-style: none;
+        font-size: 1.1em;
+    }
+
+    & a {
+        color: $footer-font-color;
+        text-decoration: none;
+    }
+
+    &::after {
+        content: '';
+        background-color: $nav-color; 
+    }
+
+    & h3 {color: $footer-font-color;}
+}
+
+/*padding and margins of page content*/
+body p { 
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+body h2 {margin-left: 1em;}
+
+body h3 {margin-left: 1em;}
+
+ul {padding-bottom: 1em;}
+
+//import the grid layout partial
+/*------- GRID LAYOUTS -------*/
+@import "partials/layout.scss";
+
+/*------- Footer styles -------*/
+footer {
+    background: $footer-color;
+    padding: 3em;
+    text-align: center;
+
+    & a {
+        color: $footer-font-color;
+        text-decoration: none;
+        margin: 1em;
+    }
+    & a::before {
+        content: '';
+        background: $header-color;
+        border-radius: 50%;
+        position: relative;
+    }
+
+}
